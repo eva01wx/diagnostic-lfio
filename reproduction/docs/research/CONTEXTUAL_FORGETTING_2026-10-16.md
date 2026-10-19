@@ -1,15 +1,10 @@
 # 背景约束、成本选择与实例查询：实现及结果
 
-本轮在旧版全特征遗忘之外新增两个模块，不修改旧实验冻结的算法文件。
-论文题目更新为 **Compact Rule Distillation with Diagnostic Allocation and
-Certified Feature Forgetting**。此前论文与 PDF 保存在
-`archive/before_contextual_forgetting_2026-10-16/`，此前三轮 ZIP 保持原样。
-
-当前版本、正文/审稿版和三个发布包统一见
-[当前发布入口](CURRENT_RELEASE.md)。当前发布目录为
-`docs/research/contextual_forgetting_2026-10-16/`，扩展实验记录为
-`results/contextual_forgetting_20261016/`。版本信息同步前的交付另存于
-`archive/before_version_sync_2026-10-16/`；实验源文件及结果保持原样。
+本实现支持背景差值约束、成本约束下的特征隐藏选择，以及按实例进行的剩余查询。
+算法与实验版本为 `contextual-forgetting-2026-10-16`，入口见
+[当前代码与实验版本](CURRENT_RELEASE.md)。实验报告位于
+`docs/research/contextual_forgetting_2026-10-16/`，原始记录位于
+`results/contextual_forgetting_20261016/`。
 
 ## 实际新增的贡献
 
@@ -82,10 +77,8 @@ choice = select_features(source, selection, costs=[4., 1.], targets=(.8,))
 使用已有 Python 3.12 环境及 `requirements-major-revision.txt`；新增模块无需新依赖。
 
 ```bash
-venv/bin/python -m pytest -q tests/test_contextual_forgetting.py tests/test_feature_forgetting.py tests/test_rule_generalization.py tests/test_lfio_generalized.py
-venv/bin/python generate_contextual_forgetting.py --workers 12
-venv/bin/python build_paper.py --all
-venv/bin/python package_contextual_forgetting.py
+python -m pytest -q tests/test_contextual_forgetting.py tests/test_feature_forgetting.py tests/test_rule_generalization.py tests/test_lfio_generalized.py
+python generate_contextual_forgetting.py --workers 12
 ```
 
 新执行应在单独副本中使用 `run_contextual_forgetting.py --prepare-only`，随后

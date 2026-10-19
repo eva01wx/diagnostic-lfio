@@ -79,10 +79,8 @@ U(r)=\exists sF(r,s),\quad L(r)=\neg\exists s\neg F(r,s),\quad L\Rightarrow F\Ri
 未使用特征的恒等对照单独统计，避免它们抬高主要覆盖率。
 
 ```bash
-venv/bin/python -m pytest -q tests/test_feature_forgetting.py
-venv/bin/python generate_feature_forgetting.py --workers 16
-venv/bin/python build_paper.py --all
-venv/bin/python package_feature_forgetting.py
+python -m pytest -q tests/test_feature_forgetting.py
+python generate_feature_forgetting.py --workers 16
 ```
 
 当前记录为 `results/feature_forgetting_20261016_v2/`。首次计算中的恒等分支效率缺陷、
@@ -141,5 +139,4 @@ Lin 与 Reiter 1994 的遗忘、Lin 2001 的必要／充分条件对偶、以及
 避免将当前实现称为新的遗忘理论或最一般的解释算法。贡献是数值阈值一致性、资源
 受限且保守失败的全局特征投影、缺失输入证书及完整可重放的集成评估。
 
-当前论文、生成表格、图、逐查询指标、审计及复现 ZIP 位于
-`feature_forgetting_2026-10-16/`；主稿仍为 `LFIO_Negation_Paper.pdf`。
+图、逐查询指标、修订对照和审计位于 `feature_forgetting_2026-10-16/`。

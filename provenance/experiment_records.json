@@ -1,0 +1,12 @@
+{
+  "release": "contextual-forgetting-2026-10-16",
+  "archive": "artifacts/experiment_records_2026-10-16.zip",
+  "bytes": 61808865,
+  "sha256": "cce9d0a19d928619e020147bfb66447223db133791081831d7fc619898dd2eb3",
+  "payloads": 13790,
+  "raw_result_payloads": 13789,
+  "raw_result_bytes": 1018667927,
+  "original_record_archive_sha256": "87a09eccec787b56eea11476c4aa18b0321c7777e9a11b1e7b16b85d75f567ea",
+  "all_original_results_payloads_preserved_byte_for_byte": true,
+  "prepared_at_utc": "2026-10-19T05:10:32.769239+00:00"
+}

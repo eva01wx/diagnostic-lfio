@@ -5,18 +5,5 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 /reproduction/results/
-/reproduction/.tools/tectonic/
+/reproduction/README_EXPERIMENT_RECORDS.md
 /reproduction/.tools/baselines/neurules/
-/paper/source/*.aux
-/paper/source/*.log
-/paper/source/*.out
-/paper/source/*.blg
-/paper/source/*.synctex.gz
-/paper/source/*.spl
-/paper/source/elsarticle-template-num.pdf
-/paper/source/LFIO_Negation_Paper.pdf
-/paper/source/LFIO_Negation_Paper_review.pdf
-/paper/source/LFIO_Development_Supplement.pdf
-
-# Extracted CAS build tree
-/paper/submission/source/

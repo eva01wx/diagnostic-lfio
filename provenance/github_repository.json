@@ -3,10 +3,6 @@
   "ssh_url": "git@github.com:eva01wx/diagnostic-lfio.git",
   "branch": "main",
   "algorithm_name": "Diagnostic LFIO",
-  "paper_title": "Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting",
   "scientific_release": "contextual-forgetting-2026-10-16",
-  "repository_supplied_by_author_on": "2026-10-19",
-  "base_commit": "4e16bdfab2bd6effe66e823e3ebb06d45801cab4",
-  "prepared_at_utc": "2026-10-19T04:57:58.644975+00:00",
-  "scope": "Source and reproducibility publication; original scientific ZIPs retained byte-for-byte."
+  "scope": "Algorithm source code, tests, data, fixed protocols and reproducibility artifacts"
 }

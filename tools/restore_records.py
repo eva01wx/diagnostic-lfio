@@ -1,4 +1,4 @@
-"""Verify and safely restore frozen records without replacing the code index."""
+"""Verify and safely restore frozen experiment records."""
 import argparse
 import hashlib
 import json
@@ -6,15 +6,16 @@ from pathlib import Path, PurePosixPath
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-ARCHIVE = ROOT / 'artifacts/KBS_Contextual_Forgetting_Experiment_Records_2026-10-16.zip'
+ARCHIVE = ROOT / 'artifacts/experiment_records_2026-10-16.zip'
 INDEX = 'BUNDLE_CONTENTS_SHA256.json'
 
 
 def restore(destination, check_only=False):
     destination = destination.resolve()
-    snapshot = json.loads((ROOT / 'provenance/copy_validation.json').read_text())
-    record = next(x for x in snapshot['archives'] if x['archive'] == str(ARCHIVE.relative_to(ROOT)))
-    if hashlib.sha256(ARCHIVE.read_bytes()).hexdigest() != record['sha256']:
+    manifest = json.loads((ROOT / 'MANIFEST_SHA256.json').read_text())
+    record = manifest['files'][str(ARCHIVE.relative_to(ROOT))]
+    if (ARCHIVE.stat().st_size != record['bytes'] or
+            hashlib.sha256(ARCHIVE.read_bytes()).hexdigest() != record['sha256']):
         raise ValueError('Record archive checksum mismatch')
     with zipfile.ZipFile(ARCHIVE) as bundle:
         infos = bundle.infolist()
@@ -42,8 +43,8 @@ def restore(destination, check_only=False):
                 existing += 1
             else:
                 missing.append((name, target))
-        # Complete preflight before writing any payload. Keep the existing code
-        # BUNDLE_CONTENTS_SHA256.json; the record index is preserved in provenance/.
+        # Complete preflight before writing any payload. The archive index is
+        # preserved separately in provenance/ and is not extracted over code.
         if not check_only:
             for name, target in missing:
                 target.parent.mkdir(parents=True, exist_ok=True)

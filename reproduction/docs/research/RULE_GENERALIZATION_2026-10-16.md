@@ -75,9 +75,8 @@ record = model.export()
 ## 复现
 
 ```bash
-venv/bin/python -m pytest -q tests/test_rule_generalization.py tests/test_lfio_generalized.py
-venv/bin/python generate_rule_generalization.py
-venv/bin/python build_paper.py --all
+python -m pytest -q tests/test_rule_generalization.py tests/test_lfio_generalized.py
+python generate_rule_generalization.py
 ```
 
 新训练必须在单独目录保留原记录，先运行 `run_rule_generalization.py --prepare-only`，
@@ -86,4 +85,3 @@ venv/bin/python build_paper.py --all
 
 表格、区间、图、逐模型指标及审计位于 `rule_generalization_2026-10-16/`。
 审计重放 3,888 个测试预测向量、1,232 个等价步骤和 544 个近似步骤，重新计算校准界。
-先前论文版本保存在 `archive/before_rule_generalization_2026-10-16/`。

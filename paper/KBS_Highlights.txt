@@ -1,5 +1,0 @@
-Empirical bounds distinguish vocabulary, capacity, and search restrictions.
-Numerical feature forgetting certifies decisions with hidden inputs.
-Exact background constraints distinguish ambiguity from infeasibility.
-Cost-aware selection hides inputs under a measured coverage requirement.
-Cached residual queries recover decisions from global compiler fallbacks.

@@ -1,4 +1,4 @@
-"""Check the copied-file manifest and original archive payload checksums."""
+"""Check repository file hashes and frozen experiment record checksums."""
 import hashlib
 import json
 from pathlib import Path
@@ -17,7 +17,6 @@ def main():
             raise ValueError('Checksum mismatch: ' + name)
     payloads = 0
     archives = list((ROOT / 'artifacts').glob('*.zip'))
-    archives += list((ROOT / 'paper/submission').glob('*_sources.zip'))
     for archive in sorted(archives):
         with zipfile.ZipFile(archive) as bundle:
             expected = json.loads(bundle.read('BUNDLE_CONTENTS_SHA256.json'))
