@@ -1,0 +1,24 @@
+\begin{kbtable}
+\centering
+\caption{Retrospective teacher-quality diagnostics for the original main cohort. BA uses unchanged reference labels; constant fidelity uses the majority teacher class chosen on validation. One-class counts refer to test teacher predictions. High fidelity to an uninformative teacher need not imply useful classification.}
+\label{tab:teacher_quality}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+Dataset & Clean teacher BA & Clean constant fid. & Clean 1-class & Noisy teacher BA & Noisy constant fid. & Noisy 1-class \\
+\midrule
+Breast cancer & 94.50 & 62.98 & 0/5 & 87.46 & 61.23 & 0/5 \\
+Banknote & 87.75 & 52.00 & 0/5 & 87.66 & 52.07 & 0/5 \\
+Ionosphere & 79.36 & 72.16 & 0/5 & 73.73 & 64.19 & 0/5 \\
+Spambase & 94.11 & 60.50 & 0/5 & 88.38 & 61.00 & 0/5 \\
+Red wine & 69.06 & 53.38 & 0/5 & 64.09 & 53.31 & 0/5 \\
+Grid simulation & 70.23 & 65.56 & 0/5 & 65.57 & 61.89 & 0/5 \\
+MAGIC simulation & 72.08 & 76.70 & 0/5 & 71.04 & 75.43 & 0/5 \\
+Haberman & 53.82 & 86.89 & 0/5 & 51.74 & 81.31 & 2/5 \\
+Sonar & 82.39 & 58.57 & 0/5 & 72.86 & 57.14 & 0/5 \\
+Transfusion & 54.69 & 94.10 & 0/5 & 53.99 & 95.31 & 1/5 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

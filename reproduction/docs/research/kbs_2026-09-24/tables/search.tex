@@ -1,0 +1,17 @@
+\begin{kbtable}
+\centering
+\caption{Training-objective gaps to certified MILP optima, averaged only over solved settings. Best candidate means the lowest training objective among the two starts and their repairs at fixed head and penalty; it is a search diagnostic, not the validation-selected predictor. Mixed DNF is the generated complex task. Three parity cases time out and are excluded from gap means.}
+\label{tab:search}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrr}
+\toprule
+Task & Certified / total & Greedy gap & Best-candidate gap & Greedy optimal & Best optimal \\
+\midrule
+Mixed DNF & 48/48 & 0.00 & 0.00 & 48/48 & 48/48 \\
+Majority & 48/48 & 30.11 & 2.61 & 2/48 & 29/48 \\
+Parity & 45/48 & 24.08 & 21.17 & 10/45 & 14/45 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

@@ -1,0 +1,20 @@
+{
+  "commit": "594904e79ec5916be1635f3495d017d76568bdc2",
+  "repository": "https://github.com/mmolerous/FastSRS",
+  "license": "MIT",
+  "files": {
+    "src/fastsrs/__init__.py": "b3ce0b47c285b8dfd70cb7c8bff31eeb15af01cf66879133b7baff580b277caf",
+    "src/fastsrs/data.py": "c336233a2aa416984602f50e3e5414934e3ed9e050194fe98847135eac0542ba",
+    "src/fastsrs/nobounds.py": "9cb793a55dbb4a549d364def464b27dcc92e35d515661a8e6cc2ea8ff8eb0607",
+    "src/fastsrs/optimal.py": "09762c5cad0a46127fce6402f24f13f4535042430e98862b58dabcba9318bd83",
+    "src/fastsrs/proprules.py": "0361a5c10d4643cea5bc1c80da334d607c352fbb85b55b2492fe414d24e99930",
+    "src/fastsrs/rashomon_epsilon.py": "bd9da7857feb85b3aa0e7f82ad28eef8986b2c5b53c02dc03653b8438a70d0ed",
+    "src/fastsrs/rashomon_nsize.py": "d9fd5f1175f11fa9ad03a8fc3aede3597e0bfddada4c6cb90fe5c21ec710d949",
+    "src/fastsrs/two_step.py": "482f1ff6d349ed40e89c2ef1191c59e26cc42987f1cff6e7a4e7e0ce49a8abf9",
+    "src/fastsrs/two_step_rashomon_epsilon.py": "4c555a7ef68cd8bb0806870f7056a581757d4e73d178666dc18232c928f2bc71",
+    "src/fastsrs/util.py": "deed75d2736a775b83c48d45d22a8cbb99c63ddc2b175d8f2f80669d989fe391",
+    "LICENSE": "b1ee42e8b0c0545a4e542236c76fa9bd58b9d7163efae674185cd82deedf4d10",
+    "README.md": "22978a22317050b943423ce96f5d26be8a91a855ac337d80df5f0592e5284406",
+    "pyproject.toml": "85445042ea8e20b7e376d3227982626be1a8f0901e9bd13bd83e2187358b4957"
+  }
+}

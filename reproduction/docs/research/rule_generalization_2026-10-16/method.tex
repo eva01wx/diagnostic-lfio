@@ -1,0 +1,35 @@
+\section{Explicit generalization of rule surrogates}\label{sec:generalization}
+\subsection{Numerical semantics and lossless compression}
+The preceding extractor selects short clauses directly; it does not perform a separate literal-deletion or clause-merging generalization pass. We add a post-fitting module for that purpose. Its input is a single-head DNF on finite numerical thresholds, with the same opposite default. A body denotes an axis-aligned box: each coordinate has an exclusive lower bound and an inclusive upper bound. Combining tests on the same raw feature therefore retains only the strongest lower and upper bounds; contradictory bodies disappear.
+
+The exact stage attempts to delete a condition, remove an already covered body, or merge two bodies into their smallest axis-aligned enclosing box. Every proposed whole-program change must pass a global equivalence check. The verifier subtracts the covering boxes from each proposed head region in both directions. An empty residual proves containment; a nonempty residual is a counterexample region. The interval endpoints preserve strict comparisons, including their boundary values. A proof permits at most 20,000 box subtractions and one exact pass permits 500,000. Exhaustion returns \emph{unknown}, which never authorizes a change. Accepted changes strictly reduce the lexicographic count of tests, bodies, raw features and distinct thresholds.
+
+This certificate covers all real inputs under the stated threshold semantics, hence all supported finite float64 inputs, rather than only recorded examples. It preserves agreement with any fixed teacher wherever the original surrogate agreed, but does not establish correctness of that teacher or reveal its internal computation. The greedy result need not be a globally shortest equivalent DNF. Boolean absorption, complementary merging and logical generalization are established operations~\citep{nienhuys1996}; the contribution here is their explicit numerical semantics, bounded whole-program verification and integration with controlled approximate generalization.
+
+\subsection{A grow-only expansion path}
+Approximate generalization additionally permits changes that enlarge the head region. Condition deletion and enclosing-box merging provide such changes; subsequent exact compression preserves that enlargement. Let $P_0$ be the original program and $P_j$ a path candidate. For either head $h$, the invariant is
+\begin{equation}
+ \{x:f_{P_0}(x)=h\}\subseteq\{x:f_{P_j}(x)=h\}.
+\end{equation}
+Thus a harmful new prediction can occur only when the teacher outputs $1-h$. Writing $f_j=f_{P_j}$, define its conditional rate as
+\begin{equation}
+ H_j=\Pr\{f_0(X)=1-h,\ f_j(X)=h\mid T(X)=1-h\}.
+\end{equation}
+For a population with both teacher classes, the two-class balanced-error increase obeys
+\begin{equation}\label{eq:generalization-harm}
+ E_{\rm bal}(P_j)-E_{\rm bal}(P_0)\leq H_j/2.
+\end{equation}
+The other teacher class cannot acquire errors under the containment invariant. This elementary one-sided relation does not equate predictive generalization with logical generalization.
+
+The path is built only on grow data. We require cumulative empirical harm at most $2\epsilon$ relative to $P_0$, with $\epsilon=0.02$, rather than resetting the allowance at every move. Among feasible complexity-reducing proposals, the algorithm chooses the shortest lexicographic description, then lower harm and a fixed fingerprint. Each step verifies containment. The full path, including its length $K$, is fixed before calibration. The no-calibration ablation deploys its shortest endpoint.
+
+\subsection{Independent calibration and scope of its bound}
+The bounded variant uses a separate calibration partition, excluded from base-model selection and path construction. For candidate $j$, let $k_j$ of $n$ calibration observations from the opposite teacher class incur harmful changes. A one-sided Clopper--Pearson limit~\citep{clopper1934} is
+\begin{equation}
+ U_j=\operatorname{Beta}^{-1}(1-\delta/K;k_j+1,n-k_j),
+\end{equation}
+with $U_j=1$ for $n=0$ or $k_j=n$ and $\delta=0.05$. We select the smallest candidate satisfying $U_j/2\leq\epsilon$, or retain the exact model if none qualifies. A second ablation replaces this bound by $k_j/(2n)$; it enforces an observed calibration constraint only.
+
+Conditional on a fixed learner/path and independent iid class-conditional calibration observations, binomial coverage and a union bound yield simultaneous validity for all $K$ candidates with probability at least $1-\delta$. Equation~\ref{eq:generalization-harm} then bounds the selected program's balanced-error increase by $\epsilon$. This is a per-path guarantee, not joint coverage over all study fits, nor a deterministic bound on a finite test fold. The guarantee depends on the sampling assumptions: duplicate-group benchmark splitting alone does not establish population iid sampling. It also does not cover distribution shift or observed-class macro scoring on a single-class test partition. The exact fallback retains its global equivalence guarantee without these probabilistic assumptions.
+
+The public \texttt{GeneralizedLFIO} wrapper exposes exact and calibrated deployment modes, rejects overlapping raw rows across fitting/selection/calibration partitions, exports both programs and proofs, and provides executable prediction traces. Trace readability and structural compression remain proxies rather than measured human comprehension.

@@ -1,0 +1,31 @@
+\section{Forgetting numerical features}\label{sec:feature-forgetting}
+\subsection{Necessary and sufficient conditions on retained inputs}
+Deleting one test from one body does not in general eliminate its raw feature from the program. We separately implement whole-coordinate forgetting. Let $F(r,s)$ be the source surrogate's head-region formula, with retained coordinates $r$ and forgotten coordinates $s$. Define
+\begin{equation}\label{eq:forgetting-envelope}
+ U_S(r)=\exists s\,F(r,s),\qquad
+ L_S(r)=\neg\exists s\,\neg F(r,s).
+\end{equation}
+Both formulas omit every coordinate in $S$, and
+\begin{equation}\label{eq:forgetting-sandwich}
+ L_S(r)\Rightarrow F(r,s)\Rightarrow U_S(r)
+ \quad\text{for every completion }s.
+\end{equation}
+With unrestricted finite real completions, $U_S$ is the strongest necessary condition and $L_S$ the weakest sufficient condition expressible over the retained coordinates. Existential forgetting and this duality are classical~\citep{lin1994forget,lin2001conditions}. We contribute their numerical implementation and integration, rather than new quantifier identities.
+
+The partial-input predictor returns head $h$ when $L_S$ holds and default $1-h$ when $U_S$ is false. Otherwise it abstains. If both projections are exact, the remaining region admits completions producing either class. This is a deterministic statement about the chosen surrogate. It needs no sampling assumption, but does not certify the teacher's response, a reference label or a causal effect. Applied after bounded generalization, it certifies that generalized surrogate; it does not silently inherit exact agreement with the original surrogate.
+
+\subsection{Numerical construction and bounded failure}
+We normalize every body to nonempty intervals before projection. Existential projection then removes all bounds on $S$ in every body: projection distributes over the union of boxes. Normalization order matters: a body containing both $x>2$ and $x\leq1$ remains impossible after forgetting $x$, rather than becoming true. Threshold atoms on one feature are consequently never treated as independent propositions.
+
+The universal formula is constructed by complementing the head union through interval subtraction, projecting the complement, then complementing again. The retained tests remain executable numerical thresholds with exclusive lower and inclusive upper endpoints. The compiler allows 50,000 subtractions and 4,096 intermediate boxes. If either limit is exhausted, it retains exact $U_S$ and substitutes the sound lower formula $L_S=\bot$, explicitly marking universal completion as unresolved. It never labels this fallback an exact ambiguity region. Saved source formulas, construction traces, limits and output fingerprints permit deterministic replay.
+
+Quantification ranges over all finite real values, including values outside observed data ranges. Input rows use float64, but completion certificates concern the wider real domain; an existential region need not contain a representable float64 value at extreme thresholds. We impose no empirical-range restriction or cross-feature feasibility relation. Accordingly, a counterexample completion can lie off the data manifold. Additional domain constraints would define a different forgetting problem.
+
+\subsection{Queries, explanations and representation cost}
+The interface accepts NaN in forgotten columns, or only the ordered retained columns; hidden values are never consulted. It exports necessary/sufficient formulas and, on request, symbolic completion boxes for the head and default classes. For example,
+\begin{equation}
+ F=(x>0\land y>0)\lor(x\leq0\land z>0)
+\end{equation}
+yields $U_{\{x\}}=(y>0)\lor(z>0)$ and $L_{\{x\}}=(y>0)\land(z>0)$. Both-positive retained values certify the head, both-nonpositive values certify the default, and mixed signs require knowledge of $x$.
+
+Forgetting need not shorten a DNF: complement construction can expand its representation. We therefore count conditions in both explicit formulas and measure runtime and unresolved compilations, following the distinction between semantic preservation and easier reasoning raised by Levy~\citep{levy1994forget}. For a fixed missing-feature set, retained values that certify a class satisfy a sufficient-reason property. We do not search for subset-minimal reasons or maximum-volume inflated explanations, unlike dedicated formal-explanation methods~\citep{darwiche2020reasons,izza2025general}. The policy below selects missing coordinates for coverage; it does not certify that the retained set is a smallest explanation.

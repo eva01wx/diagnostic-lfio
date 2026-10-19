@@ -1,0 +1,19 @@
+........................................................................ [ 60%]
+................................................                         [100%]
+=============================== warnings summary ===============================
+tests/test_recent_baselines.py::test_linear_spin_matches_official_integrated_gradients
+tests/test_recent_baselines.py::test_linear_spin_matches_official_integrated_gradients
+tests/test_recent_baselines.py::test_linear_spin_matches_official_integrated_gradients
+  /home/xuwang/Documents/code/xai-ilp/.tools/baselines/SPINRec/code/SPINRec_functions.ipynb:13: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    "id": "6657ead6-6946-4017-9f5e-0aaa8f8edafd",
+
+tests/test_recent_baselines.py::test_counterfactual_metrics_match_official_and_keep_seen_mask
+tests/test_recent_baselines.py::test_counterfactual_metrics_match_official_and_keep_seen_mask
+tests/test_recent_baselines.py::test_counterfactual_metrics_match_official_and_keep_seen_mask
+tests/test_recent_baselines.py::test_counterfactual_metrics_match_official_and_keep_seen_mask
+tests/test_recent_baselines.py::test_counterfactual_metrics_match_official_and_keep_seen_mask
+  /home/xuwang/Documents/code/xai-ilp/.tools/baselines/FidelityMetrics4XRec/src/utils.py:59: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    original_user_vector = np.array(original_user_tensor.cpu())[:num_items]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+120 passed, 8 warnings in 11.98s

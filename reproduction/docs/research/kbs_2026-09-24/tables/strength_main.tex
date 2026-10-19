@@ -1,0 +1,22 @@
+\begin{kbtable}
+\centering
+\caption{Eight-condition results on ten datasets and five splits. All methods are feasible on all 50 settings per noise level. Ordinary fidelity (percent) retains the frozen endpoint. Balanced fidelity is retrospective and excludes three single-class noisy test teachers (50 clean/47 noisy settings, dataset-equal means). The shorter-head tree row is the previously specified alternative counting analysis; its candidates are validation-reselected. Conditions are actual selected sizes.}
+\label{tab:strength_main}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & Clean fidelity & Clean balanced fid. & Clean cond. & Noisy fidelity & Noisy balanced fid. & Noisy cond. \\
+\midrule
+Refined LFIO & 91.10 & 90.73 & 6.28 & 87.05 & 86.93 & 5.66 \\
+BRCG-light & 90.96 & 89.95 & 4.76 & 85.61 & 83.65 & 3.90 \\
+Tree, shorter-head DNF & 88.46 & 86.46 & 3.40 & 84.89 & 83.31 & 3.70 \\
+Tree, all leaf paths & 81.36 & 70.52 & 2.78 & 79.83 & 71.38 & 3.26 \\
+RIPPER & 88.56 & 88.64 & 5.46 & 84.94 & 84.58 & 4.54 \\
+RuleFit & 74.53 & 67.64 & 3.10 & 71.41 & 65.17 & 2.84 \\
+TT-Sparse & 87.34 & 84.95 & 4.50 & 84.30 & 82.15 & 4.28 \\
+NeuRules & 86.76 & 85.64 & 4.84 & 83.98 & 82.86 & 4.90 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

@@ -1,0 +1,44 @@
+{
+  "rice": {
+    "uci_id": 545,
+    "page": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "download": "https://archive.ics.uci.edu/static/public/545/rice+cammeo+and+osmancik.zip",
+    "archive_sha256": "fe94e42046b829de21b92b0ffb6a22774fde021328cae799faa802a14e8dbed9",
+    "license": "CC BY 4.0"
+  },
+  "htru2": {
+    "uci_id": 372,
+    "page": "https://archive.ics.uci.edu/dataset/372/htru2",
+    "download": "https://archive.ics.uci.edu/static/public/372/htru2.zip",
+    "archive_sha256": "ba442c076dd22a8952700f26e38499fc1806037dcf7bea0e125e6bfba393f379",
+    "license": "CC BY 4.0"
+  },
+  "qsar": {
+    "uci_id": 254,
+    "page": "https://archive.ics.uci.edu/dataset/254/qsar+biodegradation",
+    "download": "https://archive.ics.uci.edu/static/public/254/qsar+biodegradation.zip",
+    "archive_sha256": "b5f7cf1b05564d94d65265a9a4aeae5fffcd15b8d3bcafe4225a8827d7ae08ac",
+    "license": "CC BY 4.0"
+  },
+  "climate": {
+    "uci_id": 252,
+    "page": "https://archive.ics.uci.edu/dataset/252/climate+model+simulation+crashes",
+    "download": "https://archive.ics.uci.edu/static/public/252/climate+model+simulation+crashes.zip",
+    "archive_sha256": "fe8c0c2b79d1beedf31fbca2db8a97cec3c1b773ee29ed3357a2ff1dc8dd12d0",
+    "license": "CC BY 4.0"
+  },
+  "retinopathy": {
+    "uci_id": 329,
+    "page": "https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen",
+    "download": "https://archive.ics.uci.edu/static/public/329/diabetic+retinopathy+debrecen.zip",
+    "archive_sha256": "64ee2dbaffc69dab77cc0fb7458fa93cb21a20f15938cafacdc195a5e2226b2c",
+    "license": "CC BY 4.0"
+  },
+  "raisin": {
+    "uci_id": 850,
+    "page": "https://archive.ics.uci.edu/dataset/850/raisin",
+    "download": "https://archive.ics.uci.edu/static/public/850/raisin.zip",
+    "archive_sha256": "5d516c040923fd154ecf85e31b6e1b5a096724fa0e68d588c33fb5a2f0c3e5db",
+    "license": "CC BY 4.0"
+  }
+}

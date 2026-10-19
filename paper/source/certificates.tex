@@ -1,0 +1,26 @@
+\begin{kbtable}
+\centering
+\caption{Real-task decomposition bounds for clean RF, seed 6001, eight conditions. All fitting rows and complete supported depth-two pools participate. Collision and capacity/search intervals are balanced-error percentage points; the final column counts proven-optimal head solves out of two, with a 15-second limit per head. Timeout dual bounds remain valid but do not certify an optimum. The MDL language nests all median predicates.}
+\label{tab:real-certificates}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Dataset & Vocabulary & $n_{fit}$ & $d_{pred}$ & Bodies & Collision & Capacity interval & Search interval & Optimal \\
+\midrule
+Rice & Median & 2286 & 7 & 98 & 7.27 & [0.09, 0.09] & [0.05, 0.05] & 2/2 \\
+Rice & MDL & 2286 & 20 & 767 & 4.33 & [0.32, 1.43] & [0.00, 1.11] & 0/2 \\
+Raisin & Median & 540 & 7 & 98 & 10.67 & [0.00, 0.00] & [0.18, 0.18] & 2/2 \\
+Raisin & MDL & 540 & 20 & 734 & 5.91 & [0.24, 2.42] & [0.00, 2.18] & 0/2 \\
+HTRU2 & Median & 10738 & 8 & 128 & 9.02 & [0.02, 0.02] & [0.07, 0.07] & 2/2 \\
+HTRU2 & MDL & 10738 & 24 & 1082 & 4.22 & [0.00, 3.67] & [0.22, 3.89] & 0/2 \\
+QSAR & Median & 634 & 41 & 3196 & 0.24 & [0.00, 17.73] & [0.00, 17.73] & 0/2 \\
+QSAR & MDL & 634 & 86 & 14082 & 0.00 & [0.00, 14.69] & [0.00, 14.69] & 0/2 \\
+Climate & Median & 324 & 18 & 648 & 0.00 & [0.31, 6.27] & [0.00, 5.96] & 0/2 \\
+Climate & MDL & 324 & 22 & 963 & 0.00 & [0.22, 5.26] & [0.00, 5.04] & 0/2 \\
+Retinopathy & Median & 691 & 19 & 648 & 20.56 & [0.16, 15.06] & [0.00, 14.91] & 0/2 \\
+Retinopathy & MDL & 691 & 35 & 2149 & 12.96 & [0.00, 17.55] & [0.00, 17.55] & 0/2 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

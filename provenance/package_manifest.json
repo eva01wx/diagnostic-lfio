@@ -1,0 +1,23 @@
+[
+  {
+    "file": "KBS_Contextual_Forgetting_LaTeX_sources_2026-10-16.zip",
+    "sha256": "a3372d9e19c6127081686736fb3b7b408b7a8e7443aed2b2fa99f4873e812a87",
+    "bytes": 345655,
+    "entries": 84,
+    "entries_verified": true
+  },
+  {
+    "file": "KBS_Contextual_Forgetting_Reproducibility_Code_2026-10-16.zip",
+    "sha256": "813e809d21346e34236a0c3133a26a9c0897bf83c84c2b6fe21d25d02bd960c5",
+    "bytes": 6829195,
+    "entries": 276,
+    "entries_verified": true
+  },
+  {
+    "file": "KBS_Contextual_Forgetting_Experiment_Records_2026-10-16.zip",
+    "sha256": "87a09eccec787b56eea11476c4aa18b0321c7777e9a11b1e7b16b85d75f567ea",
+    "bytes": 63760094,
+    "entries": 13885,
+    "entries_verified": true
+  }
+]

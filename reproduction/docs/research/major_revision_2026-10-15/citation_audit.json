@@ -1,0 +1,61 @@
+{
+  "bib_entries": 54,
+  "documents": {
+    "LFIO_Negation_Paper.tex": {
+      "cited": 50,
+      "missing": [],
+      "unused_bibliography_keys": [
+        "breiman2001",
+        "grid",
+        "uci",
+        "wine"
+      ],
+      "source_sha256": "c613e38a6b87b1a55a450b02c4212e87bc07042e25216fb0a3f4b3a985fbe181"
+    },
+    "LFIO_Development_Supplement.tex": {
+      "cited": 16,
+      "missing": [],
+      "unused_bibliography_keys": [
+        "algan2021",
+        "angelino2018",
+        "bastani2019",
+        "behzadimanesh2026",
+        "benard2021",
+        "climate2013",
+        "cohen1995",
+        "craven1995",
+        "cropper2022",
+        "evans2018",
+        "frenay2014",
+        "friedman2008",
+        "gao2022",
+        "hinton2015",
+        "hocquette2024",
+        "htru2015",
+        "inoue2014",
+        "kopanja2025",
+        "lakkaraju2016",
+        "lin2020",
+        "liu2025moss",
+        "liu2026extraction",
+        "molero2026",
+        "poursabzi2021",
+        "qsar2013",
+        "raikovskaia2026",
+        "raisin2020",
+        "retinopathy2014",
+        "ribeiro2018",
+        "rice2019",
+        "rudin2019",
+        "soegeng2026",
+        "vu2026",
+        "wang2017brs",
+        "wang2017lfio",
+        "wei2026",
+        "xu2025",
+        "yang2017"
+      ],
+      "source_sha256": "7d579e7d145582f54f08cfe93e0298fc78bf7219fca47cefcc9a0dacc089e2ab"
+    }
+  }
+}

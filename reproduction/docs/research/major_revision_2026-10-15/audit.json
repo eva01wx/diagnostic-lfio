@@ -1,0 +1,18 @@
+{
+  "settings": 72,
+  "method_grids": 576,
+  "budget_rows": 1728,
+  "candidate_exports": 2592,
+  "replayed_prediction_vectors": 3308,
+  "internal_budget_decisions_replayed": 216,
+  "source_and_data_hashes_verified": true,
+  "raw_groups_disjoint": true,
+  "fitting_only_predicates_rebuilt": true,
+  "all_validation_selections_replayed": true,
+  "work_caps_checked": true,
+  "real_certificate_rows": 12,
+  "real_solver_incumbents_replayed": 22,
+  "certificate_source_hashes_and_amendment_verified": true,
+  "historical_cohorts_not_pooled": true,
+  "primary_endpoint_frozen_before_fitting": true
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "setting": "climate_6001_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "774f1a8b58bae704d2afd2835ec003507a795731958f5ad15c60da05f0870611",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6001_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "f0610215fa361cfd9651ec024437fd5d5af5b046e8e0967e2d1220ed05d2ca35",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6001_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "51033287d2f8d75a7c310299a01bb8e4bee02632781308eefe3301446c39002c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6001_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "9d5139cbf505b7749d76d327d8d6fe2fbdd05e0f1145c867348036e92a52f8a0",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6002_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "48484ea818dfff75a85a4681624832093f56dc36445d73c2dd7165b653b5ad53",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6002_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "b7fd3efb15ea523bf650af5ef92852c7f208e91a23697148824b673d28c43c05",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6002_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "8f22c8ccb2fdb13942b344fae60dfea6c256aa2ef3b439b77b3dd303d2977449",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6002_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "704fe5ecdc241f7948b56c730ba0f4b65f11f11843d949ac998751b5f768de0b",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6003_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "1ffe3e4a545f89b889d0c65e6b83134af49de88274658cd8453d159ab964690f",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6003_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "7c19cfd9b9070e1a239226217146179843af5e7415935a6f23010ce8909af01c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6003_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "5d2695c784a6496558aee6a3612b75eae67fe5798d108424f2041850791cd4f9",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "climate_6003_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "1f9ec3608ef1cb73ec4dcc017c4ece7ea81cfe1027374538ea75748cfe31b6b8",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6001_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "b9839e18579193227ee009f4ad77145117622178a9fb2af47e9b5b78da6a0b07",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6001_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "c00fc90ad6ae73512ebfb0cda22b48d81bb7d3756d01c2cd37ed32bab61f32f8",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6001_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "273db03f28ddd629d18e3bfb4524bf2797b28948da7668376f8b28b8ac16707c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6001_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "ff76a7f697b425b008052a8781118c348c43cf923fc1e2fb2a81042296ec4649",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6002_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "6c3989e919e1cfa2ec99b12582df5eedc20e09e0f5eed5d57641a71a5f8ce153",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6002_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "f9cbe6fc4a952100e7d74502e32ee1c2a617817842d5e5647b84da7e01973a23",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6002_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "e3baf4a8e67f59c169b92264af584c025d74dd8c4fdd4202012bd215d73e990c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6002_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "7a1e3a57250157b639735e2896135116949e105cac7e88a689e4b7b836c34d5b",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6003_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "d7fc24bf5aab5aa35cba99a3860c9017f5ec75f86d30a3bf4cf0fa7aafb8445b",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6003_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "468a922125e3647d3b2479878759d498a9222f51a0d062db3a8f855f5db9f335",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6003_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "e52934e604d17a79fa72065f457e4ee2aa3b31b7852928a245f274ae57f7a6e9",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "htru2_6003_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "b281905c213a504d97b37901032054babc158a15e4419aa07183e22498a2a220",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6001_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "9e95146d8e904f21061b21d487d10bd0ba5a9f57daaf0ae3aa679dfa0eb2eca5",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6001_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "816d75c959706458cd306ab4f12b26826d99e09d6791a82c50fa7bfdfc23a445",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6001_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "1d01beb5ba12b70a98ee274d863b5c436e8922b19b062a032151eda9a6115d21",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6001_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "105598b89bd17da8bdc6caaab6ef6be2e4cc6c40ca5ab6f8f1145a05f565f5ae",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6002_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "ca6ab7d04b5d1db87a7a78ab2f11d9fffa48878ce8c8adc06b5f697ea15a798a",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6002_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "d3ab2d662720929a16b560b5f21a8977d4301729ee45506713cc0d54ab9170e7",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6002_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "d2033a7d23b368b2f036924ae67ea94353173dab3aab4b15f9cbd5fe25d673aa",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6002_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "54127e67dbf471191fe6b503a4caed5dfbc8117c604be7343d8f81abf0b46c76",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6003_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "1a6dc76ded1ff4b4957fd26a0d7ba2fe1f4e25352e9845c4184447d667726c5c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6003_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "d26aa102e61cc46bd5ee93eff2c69551e01d0f795011bf2de5a51ee2c4043b5c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6003_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "013d32c845e642400571ab33a153c989fa580b0a5c57458215b781788358fedf",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "qsar_6003_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "20933cb6d58f3eec3e852cf7b558bde28967449696ce43ac906efacd474e3fe7",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6001_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "b7375ae4a3c071a46a2efd26372c0dacc9a6ed00c26eaa9ba494e8b8213fcd1a",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6001_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "fb4695030699a7d7f0d9a1a4980d5cbff0e789c13456805d9eb5d1ecba885fe4",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6001_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "31cab6881576f1ac5863d4ffaa0ca452de738842eda98c3bc7f2b1f88c3b8fa5",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6001_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "f8cc1886b06c81bc6579b7c01a725dfff3be606e6d97dbb2d85e854534dc75d0",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6002_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "bc6e3fb497311efd67762bfc14c04ecb4f802a3d9c73cd640487a3d6d8b0cc0b",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6002_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "542cbfa7800b898e199bb59017746bcd9dba55419f34d98c51ef1028f33ecdcf",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6002_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "397e7d5c59a9c3a7f2bf95508eeb35c924f1a006c54da0282945718fa3447e52",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6002_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "6027f6b354eb9431c45a3ae89b7c06f20bd00e928822bf8f39431c0705354e98",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6003_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "1a3a7a1ed30a30955496363bac682b46ac4ef998c8758cb8b1c7bb0ff50f765c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6003_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "0e36b787d569363f95d2dc5c22ac1a3e9693e5d4a04ef9910bf20159e46b8de7",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6003_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "bad071d0bec2849c0a866a58597221c748970050f25add7e0f183f3290a0d895",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "raisin_6003_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "9e9c790048e23aeb697d9829651dd6b6e5a6ed202c56002b42ff10777c898568",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6001_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "08950712e15d713c59ed673720293b8b193992e5c80181e499823455caaf5310",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6001_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "3036eee540bbf8f29cea86a375dd1d7ffe9536e1e75aed7b1691596e3a63aebd",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6001_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "d2e694e4a9107f4e1a5baf840743aca03ffda691329c3febafe24d9e5c493ac1",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6001_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "e52c4f36865e92510b3e745ade66a859152f2dc93a10da5e7629a368312dd830",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6002_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "0a349aba8eda7286305b999dfdb461ef6abd13d738240c7af5f29fea466791b4",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6002_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "249dc311cb0b85ec18749ed9a669f635d365189cf0ec1aa88eca44bc3bbc8f04",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6002_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "a37e1ee4eb967756fb18f1503301e93b7d78a0034d7db6bf6ebce356e0f5834f",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6002_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "b24b7308ca405f387188d8c915577b330ec55e6fa5966a2f5ef474dc6cd0970c",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6003_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "33b5b4cb62814874778d77caeaa83506f88358ef0a71603663d45d90706e3186",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6003_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "0873a8ca3a86aadf1ef7f44e3a3b42fb250027d87ecc0e867d1512407bf5378e",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6003_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "2f63a4eb4193f44d7da8a0bae4cf262e7f907c65024d28e7474e382cc26231de",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "retinopathy_6003_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "0c75ae7b78367936fbc76fa1b0c72abd9f561a789cf8a3cef7991fbb6dbcc059",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6001_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "5e206793ab238c06aecc765facb2e3de69e973a66b81e8d1bfd596dd131e8784",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6001_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "37cdcdb63cf7d748196777039ef31e0988f6b43200cc5958b6ea1f27ed96cd08",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6001_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "18e8c59bb61638a49bc7f1afa60158a927739710b7b38ead9b5f650ea8f77083",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6001_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "ac36a8b7bd02ab7b6b12011ab28139aa5fce4578fbf7c6412e7d1062c357de50",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6002_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "0b4d819983c0142f0080a8a1ee759bd07a4a3f8532120a9f861f154bc52dce36",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6002_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "93d79d03a046856fedc5ce3f448f840306b7294e1c88a61f77d55c9ca6bc988b",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6002_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "a77d6e71aa0dd1f9fdc52a4c67239c04b7989413187d7a5f263629bcdd7d4186",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6002_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "07bbcea7c1e52d44206e3ec513d4ab898ef0ce19d64274796841502d601823bf",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6003_hgb_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "b606c7c8da9ffed03579ccaf9b662519aba525ae0f6aceaead7ad3ded94f5146",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6003_hgb_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "f13cb63e9afb4597e975d4c8eaf0b5064ca10d23fefa2478d8008d93e2aaa356",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6003_rf_noise00",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "0dfbf75fde9ce61c6fc9e4518b8c16e081e82c87d45d6f885671025c554ca69b",
+    "training_only_probes_replayed": true
+  },
+  {
+    "setting": "rice_6003_rf_noise20",
+    "replayed_budget_decisions": 3,
+    "source_sha256": "696074d8ebf3981cef0ad76480d2d9fbfed1733be808180ffc1a7c3597b6a0a0",
+    "training_only_probes_replayed": true
+  }
+]

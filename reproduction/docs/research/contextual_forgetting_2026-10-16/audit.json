@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "settings": 72,
+  "programs": 648,
+  "policy_rows": 19440,
+  "projection_rows": 7507,
+  "candidate_subsets": 18984,
+  "candidate_cell_oracles": 18984,
+  "candidate_oracle_caps_skipped": 0,
+  "random_constrained_oracles": 900,
+  "controlled_rows": 30,
+  "contradictions": 0,
+  "source_hashes_verified": true,
+  "selection_choices_replayed": true,
+  "saved_vectors_replayed": true,
+  "hidden_values_not_consulted": true,
+  "teacher_guarantee": false,
+  "rational_witnesses_independently_checked": true,
+  "new_independent_data": false
+}

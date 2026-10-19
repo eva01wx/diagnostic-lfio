@@ -1,0 +1,18 @@
+{
+  "settings": 72,
+  "source_programs": 1296,
+  "projection_rows": 14834,
+  "retained_row_queries_checked": 16187153,
+  "threshold_cell_families_enumerated": 86476,
+  "assigned_test_queries": 7551125,
+  "source_contradictions": 0,
+  "source_data_hashes_verified": true,
+  "certificates_recomputed": true,
+  "global_sandwich_relations_reverified": true,
+  "independent_cell_oracle_checked": true,
+  "selection_policies_replayed": true,
+  "test_vectors_replayed": true,
+  "hidden_values_not_consulted": true,
+  "teacher_level_guarantee_claim": false,
+  "new_independent_dataset_claim": false
+}

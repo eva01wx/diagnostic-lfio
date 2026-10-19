@@ -1,0 +1,1072 @@
+{
+  "policies": [
+    {
+      "profile": "heterogeneous",
+      "target": 0.7,
+      "policy": "CostAware",
+      "n": 648,
+      "coverage": {
+        "mean": 0.844879004442559,
+        "low": 0.7893517914710829,
+        "high": 0.9003701484080122
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.3524538577400689,
+        "low": 0.27363293364529245,
+        "high": 0.4442525783669315
+      },
+      "hidden_count": {
+        "mean": 1.9984567901234571,
+        "low": 1.3549382716049383,
+        "high": 2.638888888888889
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.08950617283950617,
+      "class0_coverage": {
+        "mean": 0.8136019595187932,
+        "low": 0.6604817249797935,
+        "high": 0.9210319705650103
+      },
+      "class1_coverage": {
+        "mean": 0.7574664333572313,
+        "low": 0.5784374694914635,
+        "high": 0.890623862126417
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.7,
+      "policy": "Coverage",
+      "n": 648,
+      "coverage": {
+        "mean": 0.847923568246088,
+        "low": 0.7929581421495631,
+        "high": 0.9030370990101338
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.3288196816339339,
+        "low": 0.2616584317451334,
+        "high": 0.404957355992933
+      },
+      "hidden_count": {
+        "mean": 2.0046296296296298,
+        "low": 1.3564814814814816,
+        "high": 2.6481481481481484
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.08179012345679013,
+      "class0_coverage": {
+        "mean": 0.814183508554684,
+        "low": 0.6561697819471938,
+        "high": 0.9238727714709783
+      },
+      "class1_coverage": {
+        "mean": 0.762715245921069,
+        "low": 0.5827143969188685,
+        "high": 0.89461454039082
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.7,
+      "policy": "Fixed",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8340839197421487,
+        "low": 0.7746107531088153,
+        "high": 0.8962553409146522
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.2761891489509589,
+        "low": 0.21317841232983326,
+        "high": 0.35864703535477177
+      },
+      "hidden_count": {
+        "mean": 1.7793209876543212,
+        "low": 1.2438271604938274,
+        "high": 2.345679012345679
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.1095679012345679,
+      "class0_coverage": {
+        "mean": 0.8168874317803901,
+        "low": 0.6560312927534759,
+        "high": 0.9280020378553435
+      },
+      "class1_coverage": {
+        "mean": 0.7220608959185979,
+        "low": 0.5477332660285702,
+        "high": 0.8655561343716042
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.7,
+      "policy": "Frequency",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8340789210789706,
+        "low": 0.7742947871583362,
+        "high": 0.8962170238707801
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.27979832337746896,
+        "low": 0.2207007903962125,
+        "high": 0.3593981659705978
+      },
+      "hidden_count": {
+        "mean": 1.8055555555555556,
+        "low": 1.2608024691358024,
+        "high": 2.381172839506173
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.10339506172839506,
+      "class0_coverage": {
+        "mean": 0.8176601897404178,
+        "low": 0.6603270508934473,
+        "high": 0.9281052252414557
+      },
+      "class1_coverage": {
+        "mean": 0.7250246943696915,
+        "low": 0.5558243368913751,
+        "high": 0.8670571183157593
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.7,
+      "policy": "Impact",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8485916146420777,
+        "low": 0.7940525908969591,
+        "high": 0.9032907649763109
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.32820690015935533,
+        "low": 0.26221661682342284,
+        "high": 0.4025515913054339
+      },
+      "hidden_count": {
+        "mean": 2.001543209876543,
+        "low": 1.3549382716049383,
+        "high": 2.640432098765432
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.08487654320987655,
+      "class0_coverage": {
+        "mean": 0.8177544630144883,
+        "low": 0.6651158099284343,
+        "high": 0.9243572905968457
+      },
+      "class1_coverage": {
+        "mean": 0.7611146699599681,
+        "low": 0.5788590764670231,
+        "high": 0.894307153296447
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.8,
+      "policy": "CostAware",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8990515462790221,
+        "low": 0.8713212443272823,
+        "high": 0.9272105119483393
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.2786999320740979,
+        "low": 0.23919796269042334,
+        "high": 0.32427292190555274
+      },
+      "hidden_count": {
+        "mean": 1.53858024691358,
+        "low": 1.1311728395061726,
+        "high": 2.024691358024691
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.09722222222222222,
+      "class0_coverage": {
+        "mean": 0.867541513631421,
+        "low": 0.7514819260464493,
+        "high": 0.9438623544806619
+      },
+      "class1_coverage": {
+        "mean": 0.8310241745564305,
+        "low": 0.6865661963703226,
+        "high": 0.9265572847525853
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.8,
+      "policy": "Coverage",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8998623747868432,
+        "low": 0.8714562525953894,
+        "high": 0.9284534636008956
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.2590388847842869,
+        "low": 0.22626876835103168,
+        "high": 0.29493938034257183
+      },
+      "hidden_count": {
+        "mean": 1.537037037037037,
+        "low": 1.1296296296296295,
+        "high": 2.0262345679012346
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.10648148148148148,
+      "class0_coverage": {
+        "mean": 0.8690759281556938,
+        "low": 0.7546810829466964,
+        "high": 0.9431762765863669
+      },
+      "class1_coverage": {
+        "mean": 0.834800100344117,
+        "low": 0.6907362983863483,
+        "high": 0.9296464969006576
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.8,
+      "policy": "Fixed",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8908708324505262,
+        "low": 0.859413866009862,
+        "high": 0.9226696500381945
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.23422586208208954,
+        "low": 0.1981886915892115,
+        "high": 0.2734255457334224
+      },
+      "hidden_count": {
+        "mean": 1.4351851851851851,
+        "low": 1.0555555555555556,
+        "high": 1.8719135802469131
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.11419753086419752,
+      "class0_coverage": {
+        "mean": 0.8676116586896473,
+        "low": 0.7501339820780136,
+        "high": 0.9432637546279036
+      },
+      "class1_coverage": {
+        "mean": 0.8018126333742498,
+        "low": 0.6370369859887949,
+        "high": 0.9155212063728632
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.8,
+      "policy": "Frequency",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8910210835454305,
+        "low": 0.8594562050903365,
+        "high": 0.9228906910565989
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.23380801791880476,
+        "low": 0.19700542711685667,
+        "high": 0.2735918590180002
+      },
+      "hidden_count": {
+        "mean": 1.4320987654320987,
+        "low": 1.0555555555555556,
+        "high": 1.8595679012345674
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.10493827160493827,
+      "class0_coverage": {
+        "mean": 0.8689617067157269,
+        "low": 0.7536487106612514,
+        "high": 0.9437883767257934
+      },
+      "class1_coverage": {
+        "mean": 0.801130859181614,
+        "low": 0.6367837712332117,
+        "high": 0.9165384632590429
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.8,
+      "policy": "Impact",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9009508644140477,
+        "low": 0.8735210501676357,
+        "high": 0.9287703482898283
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.2609042435218696,
+        "low": 0.22248766098123615,
+        "high": 0.3041887067995981
+      },
+      "hidden_count": {
+        "mean": 1.53858024691358,
+        "low": 1.1234567901234567,
+        "high": 2.0401234567901234
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.09722222222222222,
+      "class0_coverage": {
+        "mean": 0.8734849242519638,
+        "low": 0.7682589800374576,
+        "high": 0.9442688080365045
+      },
+      "class1_coverage": {
+        "mean": 0.8355901113265799,
+        "low": 0.6907539267885289,
+        "high": 0.9301380164913845
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.9,
+      "policy": "CostAware",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9593126616413256,
+        "low": 0.9488468693714655,
+        "high": 0.9688866549468835
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.16096698877736612,
+        "low": 0.11911597143540126,
+        "high": 0.19311501019304403
+      },
+      "hidden_count": {
+        "mean": 0.9290123456790124,
+        "low": 0.6512345679012347,
+        "high": 1.2546296296296298
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.0941358024691358,
+      "class0_coverage": {
+        "mean": 0.9523432961472627,
+        "low": 0.9165952855976237,
+        "high": 0.9770590866599104
+      },
+      "class1_coverage": {
+        "mean": 0.9361613978168631,
+        "low": 0.903455564717619,
+        "high": 0.9601770554983964
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.9,
+      "policy": "Coverage",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9611491176931161,
+        "low": 0.951416704711472,
+        "high": 0.9707159551494414
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.1491050192694897,
+        "low": 0.10927681457776957,
+        "high": 0.18205041120567825
+      },
+      "hidden_count": {
+        "mean": 0.9259259259259259,
+        "low": 0.6450617283950618,
+        "high": 1.2608024691358024
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.07716049382716049,
+      "class0_coverage": {
+        "mean": 0.9524939560536548,
+        "low": 0.9194937544305287,
+        "high": 0.9754640530750929
+      },
+      "class1_coverage": {
+        "mean": 0.9469570392009351,
+        "low": 0.9242661119443776,
+        "high": 0.9646482194165952
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.9,
+      "policy": "Fixed",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9579895652662671,
+        "low": 0.9452765642302533,
+        "high": 0.9695347486961113
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.14781461713869007,
+        "low": 0.10906224697880075,
+        "high": 0.18054841064408786
+      },
+      "hidden_count": {
+        "mean": 0.8919753086419752,
+        "low": 0.6435185185185186,
+        "high": 1.1790123456790125
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.10030864197530864,
+      "class0_coverage": {
+        "mean": 0.9490578921315301,
+        "low": 0.9105654266245807,
+        "high": 0.9762173748694729
+      },
+      "class1_coverage": {
+        "mean": 0.9432267158095344,
+        "low": 0.9252254308683111,
+        "high": 0.9605946721858957
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.9,
+      "policy": "Frequency",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9584560560792927,
+        "low": 0.9455618783889136,
+        "high": 0.9699039472104406
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.1475439976337222,
+        "low": 0.10782405937663518,
+        "high": 0.18140681298002706
+      },
+      "hidden_count": {
+        "mean": 0.8873456790123457,
+        "low": 0.6404320987654322,
+        "high": 1.1759259259259258
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.10030864197530864,
+      "class0_coverage": {
+        "mean": 0.9494370223979236,
+        "low": 0.9121434517001243,
+        "high": 0.976327078048805
+      },
+      "class1_coverage": {
+        "mean": 0.9432378040301916,
+        "low": 0.9239554272092171,
+        "high": 0.9618081334144498
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "heterogeneous",
+      "target": 0.9,
+      "policy": "Impact",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9620908656877986,
+        "low": 0.9521319157135301,
+        "high": 0.9710596704289925
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.1498149968320537,
+        "low": 0.10845631665844702,
+        "high": 0.18395109618733355
+      },
+      "hidden_count": {
+        "mean": 0.9290123456790123,
+        "low": 0.6450617283950617,
+        "high": 1.2669753086419753
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.08179012345679013,
+      "class0_coverage": {
+        "mean": 0.955875884304426,
+        "low": 0.9292821142188883,
+        "high": 0.9764846953668185
+      },
+      "class1_coverage": {
+        "mean": 0.9418740315864794,
+        "low": 0.9069482862686362,
+        "high": 0.9661009260077208
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.7,
+      "policy": "CostAware",
+      "n": 648,
+      "coverage": {
+        "mean": 0.847923568246088,
+        "low": 0.7929581421495631,
+        "high": 0.9030370990101338
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.3186929069020507,
+        "low": 0.24479525532766275,
+        "high": 0.41307066991407293
+      },
+      "hidden_count": {
+        "mean": 2.0046296296296298,
+        "low": 1.3564814814814816,
+        "high": 2.6481481481481484
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.08179012345679013,
+      "class0_coverage": {
+        "mean": 0.814183508554684,
+        "low": 0.6561697819471938,
+        "high": 0.9238727714709783
+      },
+      "class1_coverage": {
+        "mean": 0.762715245921069,
+        "low": 0.5827143969188685,
+        "high": 0.89461454039082
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.7,
+      "policy": "Coverage",
+      "n": 648,
+      "coverage": {
+        "mean": 0.847923568246088,
+        "low": 0.7929581421495631,
+        "high": 0.9030370990101338
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.3186929069020507,
+        "low": 0.24479525532766275,
+        "high": 0.41307066991407293
+      },
+      "hidden_count": {
+        "mean": 2.0046296296296298,
+        "low": 1.3564814814814816,
+        "high": 2.6481481481481484
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.08179012345679013,
+      "class0_coverage": {
+        "mean": 0.814183508554684,
+        "low": 0.6561697819471938,
+        "high": 0.9238727714709783
+      },
+      "class1_coverage": {
+        "mean": 0.762715245921069,
+        "low": 0.5827143969188685,
+        "high": 0.89461454039082
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.7,
+      "policy": "Fixed",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8340839197421487,
+        "low": 0.7746107531088153,
+        "high": 0.8962553409146522
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.2927379421237481,
+        "low": 0.22541894833561502,
+        "high": 0.38777395035420076
+      },
+      "hidden_count": {
+        "mean": 1.7793209876543212,
+        "low": 1.2438271604938274,
+        "high": 2.345679012345679
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.1095679012345679,
+      "class0_coverage": {
+        "mean": 0.8168874317803901,
+        "low": 0.6560312927534759,
+        "high": 0.9280020378553435
+      },
+      "class1_coverage": {
+        "mean": 0.7220608959185979,
+        "low": 0.5477332660285702,
+        "high": 0.8655561343716042
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.7,
+      "policy": "Frequency",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8340789210789706,
+        "low": 0.7742947871583362,
+        "high": 0.8962170238707801
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.2939480219797937,
+        "low": 0.2268417667723223,
+        "high": 0.388234471127354
+      },
+      "hidden_count": {
+        "mean": 1.8055555555555556,
+        "low": 1.2608024691358024,
+        "high": 2.381172839506173
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.10339506172839506,
+      "class0_coverage": {
+        "mean": 0.8176601897404178,
+        "low": 0.6603270508934473,
+        "high": 0.9281052252414557
+      },
+      "class1_coverage": {
+        "mean": 0.7250246943696915,
+        "low": 0.5558243368913751,
+        "high": 0.8670571183157593
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.7,
+      "policy": "Impact",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8485916146420777,
+        "low": 0.7940525908969591,
+        "high": 0.9032907649763109
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.31850710236842006,
+        "low": 0.24455783842357917,
+        "high": 0.41276615692840063
+      },
+      "hidden_count": {
+        "mean": 2.001543209876543,
+        "low": 1.3549382716049383,
+        "high": 2.640432098765432
+      },
+      "zero_hiding_fraction": 0.1712962962962963,
+      "test_shortfall_fraction": 0.08487654320987655,
+      "class0_coverage": {
+        "mean": 0.8177544630144883,
+        "low": 0.6651158099284343,
+        "high": 0.9243572905968457
+      },
+      "class1_coverage": {
+        "mean": 0.7611146699599681,
+        "low": 0.5788590764670231,
+        "high": 0.894307153296447
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.8,
+      "policy": "CostAware",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8998623747868432,
+        "low": 0.8714562525953894,
+        "high": 0.9284534636008956
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.24792948486561292,
+        "low": 0.20470491108548358,
+        "high": 0.3010466865939257
+      },
+      "hidden_count": {
+        "mean": 1.537037037037037,
+        "low": 1.1296296296296295,
+        "high": 2.0262345679012346
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.10648148148148148,
+      "class0_coverage": {
+        "mean": 0.8690759281556938,
+        "low": 0.7546810829466964,
+        "high": 0.9431762765863669
+      },
+      "class1_coverage": {
+        "mean": 0.834800100344117,
+        "low": 0.6907362983863483,
+        "high": 0.9296464969006576
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.8,
+      "policy": "Coverage",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8998623747868432,
+        "low": 0.8714562525953894,
+        "high": 0.9284534636008956
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.24792948486561292,
+        "low": 0.20470491108548358,
+        "high": 0.3010466865939257
+      },
+      "hidden_count": {
+        "mean": 1.537037037037037,
+        "low": 1.1296296296296295,
+        "high": 2.0262345679012346
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.10648148148148148,
+      "class0_coverage": {
+        "mean": 0.8690759281556938,
+        "low": 0.7546810829466964,
+        "high": 0.9431762765863669
+      },
+      "class1_coverage": {
+        "mean": 0.834800100344117,
+        "low": 0.6907362983863483,
+        "high": 0.9296464969006576
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.8,
+      "policy": "Fixed",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8908708324505262,
+        "low": 0.859413866009862,
+        "high": 0.9226696500381945
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.23747771601509204,
+        "low": 0.18983592022514814,
+        "high": 0.29547495879971086
+      },
+      "hidden_count": {
+        "mean": 1.4351851851851851,
+        "low": 1.0555555555555556,
+        "high": 1.8719135802469131
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.11419753086419752,
+      "class0_coverage": {
+        "mean": 0.8676116586896473,
+        "low": 0.7501339820780136,
+        "high": 0.9432637546279036
+      },
+      "class1_coverage": {
+        "mean": 0.8018126333742498,
+        "low": 0.6370369859887949,
+        "high": 0.9155212063728632
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.8,
+      "policy": "Frequency",
+      "n": 648,
+      "coverage": {
+        "mean": 0.8910210835454305,
+        "low": 0.8594562050903365,
+        "high": 0.9228906910565989
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.23734421974381395,
+        "low": 0.1893003997092532,
+        "high": 0.2953682997508215
+      },
+      "hidden_count": {
+        "mean": 1.4320987654320987,
+        "low": 1.0555555555555556,
+        "high": 1.8595679012345674
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.10493827160493827,
+      "class0_coverage": {
+        "mean": 0.8689617067157269,
+        "low": 0.7536487106612514,
+        "high": 0.9437883767257934
+      },
+      "class1_coverage": {
+        "mean": 0.801130859181614,
+        "low": 0.6367837712332117,
+        "high": 0.9165384632590429
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.8,
+      "policy": "Impact",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9009508644140477,
+        "low": 0.8735210501676357,
+        "high": 0.9287703482898283
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.24836305335473696,
+        "low": 0.20411713723382086,
+        "high": 0.30394004760397036
+      },
+      "hidden_count": {
+        "mean": 1.53858024691358,
+        "low": 1.1234567901234567,
+        "high": 2.0401234567901234
+      },
+      "zero_hiding_fraction": 0.2222222222222222,
+      "test_shortfall_fraction": 0.09722222222222222,
+      "class0_coverage": {
+        "mean": 0.8734849242519638,
+        "low": 0.7682589800374576,
+        "high": 0.9442688080365045
+      },
+      "class1_coverage": {
+        "mean": 0.8355901113265799,
+        "low": 0.6907539267885289,
+        "high": 0.9301380164913845
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.9,
+      "policy": "CostAware",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9611491176931161,
+        "low": 0.951416704711472,
+        "high": 0.9707159551494414
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.15070603512486827,
+        "low": 0.10041313908724216,
+        "high": 0.20476559347907342
+      },
+      "hidden_count": {
+        "mean": 0.9259259259259259,
+        "low": 0.6450617283950618,
+        "high": 1.2608024691358024
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.07716049382716049,
+      "class0_coverage": {
+        "mean": 0.9524939560536548,
+        "low": 0.9194937544305287,
+        "high": 0.9754640530750929
+      },
+      "class1_coverage": {
+        "mean": 0.9469570392009351,
+        "low": 0.9242661119443776,
+        "high": 0.9646482194165952
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.9,
+      "policy": "Coverage",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9611491176931161,
+        "low": 0.951416704711472,
+        "high": 0.9707159551494414
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.15070603512486827,
+        "low": 0.10041313908724216,
+        "high": 0.20476559347907342
+      },
+      "hidden_count": {
+        "mean": 0.9259259259259259,
+        "low": 0.6450617283950618,
+        "high": 1.2608024691358024
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.07716049382716049,
+      "class0_coverage": {
+        "mean": 0.9524939560536548,
+        "low": 0.9194937544305287,
+        "high": 0.9754640530750929
+      },
+      "class1_coverage": {
+        "mean": 0.9469570392009351,
+        "low": 0.9242661119443776,
+        "high": 0.9646482194165952
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.9,
+      "policy": "Fixed",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9579895652662671,
+        "low": 0.9452765642302533,
+        "high": 0.9695347486961113
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.1480760526840968,
+        "low": 0.09869315249101142,
+        "high": 0.20241363146455738
+      },
+      "hidden_count": {
+        "mean": 0.8919753086419752,
+        "low": 0.6435185185185186,
+        "high": 1.1790123456790125
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.10030864197530864,
+      "class0_coverage": {
+        "mean": 0.9490578921315301,
+        "low": 0.9105654266245807,
+        "high": 0.9762173748694729
+      },
+      "class1_coverage": {
+        "mean": 0.9432267158095344,
+        "low": 0.9252254308683111,
+        "high": 0.9605946721858957
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.9,
+      "policy": "Frequency",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9584560560792927,
+        "low": 0.9455618783889136,
+        "high": 0.9699039472104406
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.14764738327394591,
+        "low": 0.09853950054970469,
+        "high": 0.20207069593643667
+      },
+      "hidden_count": {
+        "mean": 0.8873456790123457,
+        "low": 0.6404320987654322,
+        "high": 1.1759259259259258
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.10030864197530864,
+      "class0_coverage": {
+        "mean": 0.9494370223979236,
+        "low": 0.9121434517001243,
+        "high": 0.976327078048805
+      },
+      "class1_coverage": {
+        "mean": 0.9432378040301916,
+        "low": 0.9239554272092171,
+        "high": 0.9618081334144498
+      },
+      "budget_exhausted_fraction": 0.0
+    },
+    {
+      "profile": "uniform",
+      "target": 0.9,
+      "policy": "Impact",
+      "n": 648,
+      "coverage": {
+        "mean": 0.9620908656877986,
+        "low": 0.9521319157135301,
+        "high": 0.9710596704289925
+      },
+      "hidden_cost_fraction": {
+        "mean": 0.1513184199965124,
+        "low": 0.09998520490997342,
+        "high": 0.20461604884144652
+      },
+      "hidden_count": {
+        "mean": 0.9290123456790123,
+        "low": 0.6450617283950617,
+        "high": 1.2669753086419753
+      },
+      "zero_hiding_fraction": 0.4012345679012346,
+      "test_shortfall_fraction": 0.08179012345679013,
+      "class0_coverage": {
+        "mean": 0.955875884304426,
+        "low": 0.9292821142188883,
+        "high": 0.9764846953668185
+      },
+      "class1_coverage": {
+        "mean": 0.9418740315864794,
+        "low": 0.9069482862686362,
+        "high": 0.9661009260077208
+      },
+      "budget_exhausted_fraction": 0.0
+    }
+  ],
+  "primary_cost_gain": {
+    "mean": 0.01966104728981092,
+    "low": 0.00930845104163349,
+    "high": 0.03099876559634014
+  },
+  "benchmark": {
+    "n": 32,
+    "expanded_tests_min": 3837,
+    "expanded_tests_max": 5260,
+    "global_median_peak": 1565418.0,
+    "query_median_peak": 11009.5,
+    "median_peak_ratio": 0.007075858692724748,
+    "global_median_total_cpu": 0.4477789674999997,
+    "query_median_total_cpu": 0.0012021659999996714,
+    "global_median_warm_cpu": 0.006285074500000043,
+    "query_median_warm_cpu": 0.0008798825000000399,
+    "cpu_tracing": false,
+    "cpu_repetitions": 3,
+    "query_median_patterns": 3.0
+  },
+  "queries": {
+    "n": 7507,
+    "old_conservative": 376,
+    "unknown": 0,
+    "gained_row_queries": 51892,
+    "lost_row_queries": 0,
+    "median_patterns": 3.0
+  },
+  "audit": {
+    "status": "passed",
+    "settings": 72,
+    "programs": 648,
+    "policy_rows": 19440,
+    "projection_rows": 7507,
+    "candidate_subsets": 18984,
+    "candidate_cell_oracles": 18984,
+    "candidate_oracle_caps_skipped": 0,
+    "random_constrained_oracles": 900,
+    "controlled_rows": 30,
+    "contradictions": 0,
+    "source_hashes_verified": true,
+    "selection_choices_replayed": true,
+    "saved_vectors_replayed": true,
+    "hidden_values_not_consulted": true,
+    "teacher_guarantee": false,
+    "rational_witnesses_independently_checked": true,
+    "new_independent_data": false
+  }
+}

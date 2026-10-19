@@ -1,0 +1,20 @@
+\begin{kbtable}
+\centering
+\caption{Independent numerical tasks and teacher reference-label balanced accuracy (percent). Each teacher cell averages three fixed splits. Study/Run identifiers are removed from Climate. Rice and Raisin share a morphological domain.}
+\label{tab:independent-data}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Dataset & $n$ & $d$ & Class 1 (\%) & RF clean & HGB clean & RF noisy & HGB noisy \\
+\midrule
+Rice & 3810 & 7 & 42.8 & 92.71 & 92.07 & 89.51 & 86.55 \\
+Raisin & 900 & 7 & 50.0 & 85.19 & 86.30 & 79.44 & 75.19 \\
+HTRU2 & 17898 & 8 & 9.2 & 92.06 & 93.67 & 91.59 & 91.28 \\
+QSAR & 1055 & 41 & 33.7 & 82.56 & 82.43 & 77.37 & 72.84 \\
+Climate & 540 & 18 & 91.5 & 62.96 & 83.67 & 60.61 & 67.34 \\
+Retinopathy & 1151 & 19 & 53.1 & 71.10 & 70.48 & 67.74 & 64.05 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

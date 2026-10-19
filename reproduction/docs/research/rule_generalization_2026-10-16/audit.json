@@ -1,0 +1,15 @@
+{
+  "settings": 72,
+  "base_budget_fits": 648,
+  "variant_rows": 3888,
+  "prediction_vectors_replayed": 3888,
+  "exact_proof_steps_replayed": 1232,
+  "approximate_steps_replayed": 544,
+  "global_equivalence_reverified": true,
+  "cumulative_grow_harm_checked": true,
+  "calibration_bounds_recomputed": true,
+  "grouped_partitions_disjoint": true,
+  "source_and_data_hashes_verified": true,
+  "test_predictions_only_after_selection": true,
+  "population_sampling_assumptions_not_inferred": true
+}

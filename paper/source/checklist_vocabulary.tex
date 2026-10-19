@@ -1,0 +1,19 @@
+\begin{kbtable}
+\centering
+\caption{Native-teacher follow-up at eight conditions. Both vocabularies allow at most three predicates per original feature; actual vocabulary sizes differ. Median plus MDL uses only fitting teacher labels. All arms use the prespecified selection grids. Parentheses report feasibility. Median wall time covers all four condition budgets, includes preprocessing (and LFIO candidate preparation), and is affected by parallel load.}
+\label{tab:checklist_vocabulary}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Clean fidelity & Noisy fidelity & Conditions C/N & Predicates C/N & Wall (s) \\
+\midrule
+Refined, quantiles & 85.68 (30/30) & 80.29 (30/30) & 6.63/6.00 & 57.8/57.8 & 8.45 \\
+Refined, median + MDL & 85.75 (30/30) & 79.59 (30/30) & 5.67/5.80 & 46.7/37.2 & 3.63 \\
+BRCG, quantiles & 85.85 (30/30) & 80.33 (30/30) & 5.23/4.33 & 57.8/57.8 & 22.39 \\
+BRCG, median + MDL & 86.33 (30/30) & 80.81 (30/30) & 4.50/3.57 & 46.7/37.2 & 19.20 \\
+Native tree & 84.94 (30/30) & 80.44 (30/30) & 3.03/3.57 & -- & 0.06 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

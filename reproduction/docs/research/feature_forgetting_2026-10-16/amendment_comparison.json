@@ -1,0 +1,9 @@
+{
+  "source_programs": 1296,
+  "selected_missing_coordinate_sets_changed": [],
+  "noncontrol_projection_formulas_changed": [],
+  "unused_identity_controls_recovered_from_conservative_fallback": 22,
+  "resource_limits_changed": false,
+  "main_endpoint_definitions_changed": false,
+  "initial_records_preserved": true
+}

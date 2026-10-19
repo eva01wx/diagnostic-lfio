@@ -1,0 +1,7 @@
+dataset,DiagnosticLFIO,MedianRestarts,MDLRestarts,MedianRepair,NativeTree,BRCG-light,FastSRS,NeuRulesNative
+rice,3,3,3,3,3,3,3,3
+raisin,3,3,3,3,3,3,3,3
+htru2,3,3,3,3,3,3,3,3
+qsar,3,3,3,3,3,3,3,0
+climate,3,3,3,3,3,3,3,1
+retinopathy,3,3,3,3,3,3,3,0

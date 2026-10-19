@@ -1,0 +1,18 @@
+\begin{kbtable}
+\centering
+\caption{Scored-work allocation at eight conditions: ten datasets, three new seeds and 30 settings per noise level. Each paired policy scores exactly $m$ times the supported pool size per grid cell and submits one fitting-objective winner to validation. Scores and CPU are medians over all 60 settings; CPU excludes shared candidate preparation. Matching score counts does not match wall time or instructions.}
+\label{tab:checklist_work}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+Policy & $m$ & Clean fidelity & Noisy fidelity & Conditions C/N & Scores (M) & CPU (s) \\
+\midrule
+Greedy restarts & 8 & 90.84 & 87.27 & 5.83/5.73 & 0.444 & 0.26 \\
+Repair allocation & 8 & 90.93 & 87.40 & 5.53/5.50 & 0.444 & 0.32 \\
+Greedy restarts & 32 & 91.03 & 87.14 & 6.17/5.60 & 1.776 & 0.99 \\
+Repair allocation & 32 & 90.92 & 87.44 & 5.73/5.83 & 1.776 & 1.27 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

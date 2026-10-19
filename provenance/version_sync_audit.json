@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-16T07:17:53.189009+00:00",
+  "release": "contextual-forgetting-2026-10-16",
+  "title": "Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting",
+  "scope": "Version metadata, current paths, documentation and release packaging only.",
+  "manuscript_scientific_body_unchanged": true,
+  "pdfs": {
+    "LFIO_Negation_Paper": {
+      "pages": 19,
+      "title": "Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting",
+      "sha256": "db6439c29036feb4a390a5637b2d5bc3c5250a3ac3cb87f229b9beba12dc7a4b"
+    },
+    "LFIO_Negation_Paper_review": {
+      "pages": 33,
+      "title": "Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting",
+      "sha256": "e012fddaba0628e8aef679d23c941ac3914820e4918283eaff6f28c993d6b34d"
+    },
+    "LFIO_Development_Supplement": {
+      "pages": 16,
+      "title": "Supplementary Development Evidence for Compact Rule Distillation",
+      "sha256": "39cc8c2ca471717c342d582ed227f183cd90e2d37ffa44842dec697cb8d7404d"
+    }
+  },
+  "unchanged_previous_delivery_artifacts": {
+    "KBS_Highlights.docx": "8d84e2e6e45cc0fab45f43a0be5c727689c924beaf0b7ccf7f8ae387a8ba0ac6",
+    "KBS_Highlights.txt": "da316fe0cc39fa846f426befc7bc07a3a61960a7f3064794b631d0f67925ec4b",
+    "LFIO_Development_Supplement.tex": "7d579e7d145582f54f08cfe93e0298fc78bf7219fca47cefcc9a0dacc089e2ab",
+    "LFIO_Negation_Paper_review.tex": "dc8be616064096a49128afdbcc1f7a9b6cfb1256e06c188cdb617f0118ec8acd",
+    "benchmark_contextual_forgetting.py": "91d3defa5a69b8acc17f3e66d89bebe1b70449caa90b0a36e4aba29a3317f1bf",
+    "docs/research/CONTEXTUAL_BENCHMARK_NOTE_2026-10-16.md": "41fc3a02b34d968bc96b301c0a9dd097107121507b331e4a131df5a82a80809e",
+    "docs/research/CONTEXTUAL_FORGETTING_PROTOCOL_2026-10-16.md": "b27a06d530171eca373460229317879dfca296b785633637668f3c01f81e0f4f",
+    "docs/research/contextual_forgetting_2026-10-16/audit.json": "82e456791bb0d67c01386771a0fdc560a8d2364eb9d541a6e7b012b3c8d4fcd4",
+    "docs/research/contextual_forgetting_2026-10-16/citation_audit.json": "8faef6a8263c7310c6bc33d507144d8fc6a44bad8f5ae4b5cc69722a1e59a83c",
+    "docs/research/contextual_forgetting_2026-10-16/contextual.pdf": "6adc86d104e2403984199126dbc8cec5283a7d62b00f975b3ebb290d356a3b3e",
+    "docs/research/contextual_forgetting_2026-10-16/contextual.png": "93b426dc8320559abfbe1801cb4c196d6eb168ebcde3a94fe85362ec8a1c5637",
+    "docs/research/contextual_forgetting_2026-10-16/costs.tex": "565dc0de2bf62b23141d62d0d9d3eef6b7ddae24f679bcdedc58c2c2144cdc3f",
+    "docs/research/contextual_forgetting_2026-10-16/findings.tex": "14c4aed03254e8886bcabcedb03e986d7d0e9a2759fe89c678ac94fd98b21925",
+    "docs/research/contextual_forgetting_2026-10-16/fit_audits.json": "def79667d3b2229b0b1e8466b3d9352da11c9bcb86b6e54da979fd87c101097c",
+    "docs/research/contextual_forgetting_2026-10-16/input_sha256.json": "41c4d4089fcd10775b0affd35dd3ca0d40b88be6f5e1cf14932eece6eccd01dd",
+    "docs/research/contextual_forgetting_2026-10-16/method.tex": "ed9238c912180ce3a27d6d23191d72788228ae06d91103312bd27ed6bdc592f9",
+    "docs/research/contextual_forgetting_2026-10-16/numbers.json": "099360c2af38baf566f8e4186e913d6ab8d56303ead9404fc1d23c23f8d671f0",
+    "docs/research/contextual_forgetting_2026-10-16/numbers.tex": "51debf58d42ad550b1f3cec69810c440f4bba70355b0805006c667d395cdbee5",
+    "docs/research/contextual_forgetting_2026-10-16/policies.csv": "4a5cd288e2cc07db3326dbd3aec517387fedbb541269117aa8316d85b41b2bc5",
+    "docs/research/contextual_forgetting_2026-10-16/queries.csv": "c31796961138bf3e54a841632d53c23ecdc021c2c360fc006e20ec3536eb9b9c",
+    "docs/research/contextual_forgetting_2026-10-16/validation_tests.txt": "9915758b375282c28a911be87d2de2f10f2642cd000eb3f9ee744a07caa4ccf1",
+    "generate_contextual_forgetting.py": "2bda98cfdc29d21353c9ac9d0730fa6205caf67c8ef6efecf13cff54888ca507",
+    "references.bib": "de6de6be1d3dcac7d8c2692098b43c72bfbf351e9aaa9b211f9f85c4ea0f788a",
+    "research_baselines/contextual_oracle.py": "cdbe2894050bb056a6a0384ef8e6470fe9c084695d2e1731d27860811c98c5cf",
+    "results/contextual_forgetting_20261016/benchmark.json": "8f4f3a8447c742e85a0794a1f32fcec3044b1473e6a805904f659966d3f740c7",
+    "results/contextual_forgetting_20261016/benchmark_untraced.json": "bf0fcd8fc7c542d460fbe7fbbd1ff4e1a56a34a1779e7abb19d9785e1468ba69",
+    "results/contextual_forgetting_20261016/benchmark_untraced_manifest.json": "cb1826662507fba9ece60c8e2bed33f1ce1ab504d657525cf7d4dce7d6c2633a",
+    "results/contextual_forgetting_20261016/completion.json": "1fb0ecf5cf970e77c78901e9d5bebd83f0cb22bfe727cbe1027a7e11ce6d4b4e",
+    "results/contextual_forgetting_20261016/controlled.json": "7d928fa4344c4fc2f0c9592aa07e5c8c908f2ea8297975b87aceffcc6066694d",
+    "results/contextual_forgetting_20261016/manifest.json": "054faf14ddce2f87920521b8d2f9fcceac8a424c3430b713edd29d1f0d84d394",
+    "run_contextual_forgetting.py": "8469fc51e84382a415d960253b254ed22295d8034fab82ca435aa4be9d54fb68",
+    "src/contextual_forgetting.py": "c290a8489dfec19edf6873f9d748164ad562770eec3926eae42f4f7d780e1f07",
+    "src/forgetting_selection.py": "99e724787f5a2d7b29454db00917269769788906fd5c3c5fdee377edceb858e2",
+    "tests/test_contextual_forgetting.py": "321eaa8a0f56e866cffeceb68baaad9dece0424b37d7375fd7f3ce1354003d5f"
+  },
+  "frozen_source_locks_verified": {
+    "src/contextual_forgetting.py": "c290a8489dfec19edf6873f9d748164ad562770eec3926eae42f4f7d780e1f07",
+    "src/forgetting_selection.py": "99e724787f5a2d7b29454db00917269769788906fd5c3c5fdee377edceb858e2",
+    "research_baselines/contextual_oracle.py": "cdbe2894050bb056a6a0384ef8e6470fe9c084695d2e1731d27860811c98c5cf",
+    "run_contextual_forgetting.py": "8469fc51e84382a415d960253b254ed22295d8034fab82ca435aa4be9d54fb68",
+    "docs/research/CONTEXTUAL_FORGETTING_PROTOCOL_2026-10-16.md": "b27a06d530171eca373460229317879dfca296b785633637668f3c01f81e0f4f",
+    "benchmark_contextual_forgetting.py": "91d3defa5a69b8acc17f3e66d89bebe1b70449caa90b0a36e4aba29a3317f1bf",
+    "docs/research/CONTEXTUAL_BENCHMARK_NOTE_2026-10-16.md": "41fc3a02b34d968bc96b301c0a9dd097107121507b331e4a131df5a82a80809e",
+    "src/feature_forgetting.py": "79e770caa9c1f7e4320fbf6b10a523548fc5e74620073e1207ae84817dfa9224"
+  },
+  "input_records_sha256_verified": 1944,
+  "source_input_manifest_sha256": "41c4d4089fcd10775b0affd35dd3ca0d40b88be6f5e1cf14932eece6eccd01dd",
+  "previous_nine_release_packages_unchanged": [
+    {
+      "folder": "major_revision_2026-10-15",
+      "file": "KBS_LaTeX_sources_2026-10-15.zip",
+      "sha256": "d087362acaccbfbb5a3f8c27162574731c459d50ac8c469facce303110762797"
+    },
+    {
+      "folder": "major_revision_2026-10-15",
+      "file": "KBS_Reproducibility_Code_2026-10-15.zip",
+      "sha256": "3b96b8b98c68b5f3c4e6618393ed5f2cb9707fe878770223b4a705fd424c00f9"
+    },
+    {
+      "folder": "major_revision_2026-10-15",
+      "file": "KBS_Experiment_Records_2026-10-15.zip",
+      "sha256": "78bf87fadacc6ce424fce9944a29d0f5a5495184a2271f26ce6db375355212c9"
+    },
+    {
+      "folder": "rule_generalization_2026-10-16",
+      "file": "KBS_LaTeX_sources_2026-10-16.zip",
+      "sha256": "108d7bca3491061fc133f713c9611244a52b85c83a32505cbfed003cc8046177"
+    },
+    {
+      "folder": "rule_generalization_2026-10-16",
+      "file": "KBS_Reproducibility_Code_2026-10-16.zip",
+      "sha256": "49e0fa5c965a7d3fcc3bc4f2d409644fa536f57252ac82e28440706bd0a256f6"
+    },
+    {
+      "folder": "rule_generalization_2026-10-16",
+      "file": "KBS_Experiment_Records_2026-10-16.zip",
+      "sha256": "0beae0c167320c5ad7188debef78b380c06949e2742cc59109589f828fe0334d"
+    },
+    {
+      "folder": "feature_forgetting_2026-10-16",
+      "file": "KBS_Feature_Forgetting_LaTeX_sources_2026-10-16.zip",
+      "sha256": "c25134b3d26826d3778a98769f8b3c143246efe45ee52ef1d371f45804b4cfe9"
+    },
+    {
+      "folder": "feature_forgetting_2026-10-16",
+      "file": "KBS_Feature_Forgetting_Reproducibility_Code_2026-10-16.zip",
+      "sha256": "1bc3b6174d21cdff9f1f589beef85dc9ec54420db08b2e1bf0bbd11c59d22a12"
+    },
+    {
+      "folder": "feature_forgetting_2026-10-16",
+      "file": "KBS_Feature_Forgetting_Experiment_Records_2026-10-16.zip",
+      "sha256": "b94587eb65754b5dec75a20d77d9f4e038f44875c1367102e26db20f091060ca"
+    }
+  ],
+  "pre_sync_snapshot": {
+    "directory": "docs/research/archive/before_version_sync_2026-10-16",
+    "files_verified": 37,
+    "manifest_sha256": "d1e29490a71ecbba916b9a27cc1c6a9b47b7417f1bb9b7637f409d094fa4054a"
+  },
+  "scientific_tests_repeated": false,
+  "training_repeated": false
+}

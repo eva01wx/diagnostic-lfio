@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T03:22:05.659439+00:00",
+  "release": "contextual-forgetting-2026-10-16",
+  "scope": "Author-supplied second-author email added; author order, correspondence, affiliations, funding and contributions retained.",
+  "funding": {
+    "statement": "This research was supported by Zhejiang Provincial Natural Science Foundation of China under Grant No. LQN26F020019.",
+    "grant": "LQN26F020019",
+    "project_type": "Zhejiang Provincial Natural Science Foundation young scientists project (author supplied)",
+    "wording_source": "https://zjnsf.kjt.zj.gov.cn/insiis7/api/site/v1/post/detail?categoryId=2018515&postId=1524104987230076928",
+    "source_document": "Zhejiang Provincial Natural Science Foundation project management measures, 2026, Article 29",
+    "checked_date": "2026-10-16"
+  },
+  "authors": {
+    "order": [
+      "Xu Wang",
+      "Zhiqiang Chen"
+    ],
+    "corresponding_author": "Xu Wang",
+    "shared_affiliation_ids": [
+      1,
+      2,
+      3
+    ],
+    "affiliations_confirmed_by_author": true,
+    "zhiqiang_chen_contributions": [
+      "Writing – original draft",
+      "Writing – review & editing",
+      "Investigation (literature collection)"
+    ],
+    "xu_wang_contributions_pending_confirmation": false,
+    "xu_wang_contributions": [
+      "Conceptualization",
+      "Methodology",
+      "Software",
+      "Investigation",
+      "Validation",
+      "Writing – original draft",
+      "Writing – review & editing"
+    ],
+    "xu_wang_contributions_confirmation_date": "2026-10-17",
+    "emails": {
+      "Xu Wang": "xwang@idt.eitech.edu.cn",
+      "Zhiqiang Chen": "zqchen@idt.eitech.edu.cn"
+    },
+    "zhiqiang_chen_email_confirmed_by_author": true,
+    "zhiqiang_chen_email_confirmation_date": "2026-10-19"
+  },
+  "pdfs": {
+    "main": {
+      "document": "LFIO_Negation_Paper",
+      "pages": 62,
+      "author_metadata": "Xu Wang and Zhiqiang Chen",
+      "pdf_sha256": "9cf6f538bd30334318616857b3ec6531e1b2af47f3e7cded111d89bc3d436af3",
+      "second_author_email_on_first_page": true
+    },
+    "submission": {
+      "document": "elsarticle-template-num",
+      "pages": 62,
+      "author_metadata": "Xu Wang and Zhiqiang Chen",
+      "pdf_sha256": "1c301b1e603cee41c5aa8badc29ad248a38dc645161305f473c1e1cb0bdeb9e3",
+      "second_author_email_on_first_page": true
+    },
+    "review": {
+      "document": "LFIO_Negation_Paper_review",
+      "pages": 62,
+      "author_metadata": "Xu Wang and Zhiqiang Chen",
+      "pdf_sha256": "6013a8cfb01f887ed366024ac26db74049d76e564f1c8c35fe4835059b1f3a00",
+      "second_author_email_on_first_page": true
+    },
+    "development": {
+      "document": "LFIO_Development_Supplement",
+      "pages": 16,
+      "author_metadata": "Xu Wang and Zhiqiang Chen",
+      "pdf_sha256": "622487157a16efa2b842f5902f063e9a271a665860db92093a195093b584c5b7",
+      "second_author_email_on_first_page": true
+    }
+  },
+  "main_and_supplement_scientific_content_unchanged": true,
+  "frozen_source_locks_verified": 8,
+  "input_records_sha256_verified": 1944,
+  "pre_update_snapshot": {
+    "directory": "docs/research/archive/before_credit_completion_2026-10-17",
+    "files_verified": 36,
+    "manifest_sha256": "b29fcd8d1a6796e436a5388e49d7ffb1ac1c049358869fa457e547c6a89e3da0"
+  },
+  "tests_repeated": false,
+  "training_repeated": false,
+  "scientific_reports_regenerated": false,
+  "format_migration": "format_migration_audit.json",
+  "author_email_update": {
+    "author": "Zhiqiang Chen",
+    "email": "zqchen@idt.eitech.edu.cn",
+    "source": "Supplied directly by the author on 2026-10-19.",
+    "verified_at_utc": "2026-10-19T03:22:05.659439+00:00",
+    "corresponding_author": "Xu Wang",
+    "scientific_body_unchanged": true,
+    "scientific_tests_repeated": false,
+    "training_repeated": false,
+    "pdfs": {
+      "main": {
+        "path": "LFIO_Negation_Paper.pdf",
+        "pages": 62,
+        "sha256": "9cf6f538bd30334318616857b3ec6531e1b2af47f3e7cded111d89bc3d436af3",
+        "email_on_first_page": true
+      },
+      "submission": {
+        "path": "elsarticle-template-num.pdf",
+        "pages": 62,
+        "sha256": "1c301b1e603cee41c5aa8badc29ad248a38dc645161305f473c1e1cb0bdeb9e3",
+        "email_on_first_page": true
+      },
+      "review": {
+        "path": "LFIO_Negation_Paper_review.pdf",
+        "pages": 62,
+        "sha256": "6013a8cfb01f887ed366024ac26db74049d76e564f1c8c35fe4835059b1f3a00",
+        "email_on_first_page": true
+      },
+      "development": {
+        "path": "LFIO_Development_Supplement.pdf",
+        "pages": 16,
+        "sha256": "622487157a16efa2b842f5902f063e9a271a665860db92093a195093b584c5b7",
+        "email_on_first_page": true
+      }
+    },
+    "preview_directory": "results/tex_build/second_author_email_20261019"
+  }
+}

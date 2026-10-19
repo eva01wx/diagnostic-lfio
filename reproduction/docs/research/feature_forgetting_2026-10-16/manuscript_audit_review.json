@@ -1,0 +1,16 @@
+{
+  "pages": 29,
+  "unresolved_reference_markers": false,
+  "warnings": [],
+  "package_warnings": [],
+  "bibtex_warnings": [],
+  "underfull_boxes": [],
+  "outside_page_text_blocks": [],
+  "review_page_map": {},
+  "pdf_sha256": "73c5f8e5622bbf6c4c481edfac5408af9c9d62eb3ef0589216ca514fcf9c488c",
+  "tex_sha256": "dc8be616064096a49128afdbcc1f7a9b6cfb1256e06c188cdb617f0118ec8acd",
+  "body_source_sha256": "9be5616eb3fdc198dcf3d760d8fea6df336f0ed86884941fcd8bdcfa3fd0f8ab",
+  "visual_review_complete": true,
+  "visual_review_scope": "Every page reviewed in contact sheet; new method pages 6\u20137 and results pages 12\u201313 additionally reviewed at page resolution in main manuscript.",
+  "contact_sheet_sha256": "0eaa6bb30cb594dacf70261b54f84e63300466990cc3f3d16ff564c1ba0171a7"
+}

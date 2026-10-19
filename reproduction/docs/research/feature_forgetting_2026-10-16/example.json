@@ -1,0 +1,247 @@
+{
+  "kind": "Constructed executable example, not benchmark evidence",
+  "formulas": {
+    "certain_head": "(y > 0.0 AND z > 0.0)",
+    "possible_head": "(y > 0.0) OR (z > 0.0)",
+    "certain_default": "NOT ((y > 0.0) OR (z > 0.0))",
+    "abstain": "((y > 0.0) OR (z > 0.0)) AND NOT ((y > 0.0 AND z > 0.0))",
+    "head": 1,
+    "default_class": 0,
+    "certain_is_exact": true
+  },
+  "certificate": {
+    "representation": "numerical feature forgetting envelope",
+    "original": {
+      "representation": "single-head numerical DNF",
+      "input_cast": "float64",
+      "n_features": 3,
+      "head": 1,
+      "default_class": 0,
+      "rules": [
+        [
+          [
+            0,
+            0.0,
+            true
+          ],
+          [
+            1,
+            0.0,
+            true
+          ]
+        ],
+        [
+          [
+            0,
+            0.0,
+            false
+          ],
+          [
+            2,
+            0.0,
+            true
+          ]
+        ]
+      ]
+    },
+    "forgotten_features": [
+      0
+    ],
+    "retained_features": [
+      1,
+      2
+    ],
+    "possible": {
+      "representation": "single-head numerical DNF",
+      "input_cast": "float64",
+      "n_features": 3,
+      "head": 1,
+      "default_class": 0,
+      "rules": [
+        [
+          [
+            1,
+            0.0,
+            true
+          ]
+        ],
+        [
+          [
+            2,
+            0.0,
+            true
+          ]
+        ]
+      ]
+    },
+    "certain": {
+      "representation": "single-head numerical DNF",
+      "input_cast": "float64",
+      "n_features": 3,
+      "head": 1,
+      "default_class": 0,
+      "rules": [
+        [
+          [
+            1,
+            0.0,
+            true
+          ],
+          [
+            2,
+            0.0,
+            true
+          ]
+        ]
+      ]
+    },
+    "audit": {
+      "status": "exact",
+      "possible_exact": true,
+      "certain_exact": true,
+      "reason": null,
+      "box_subtractions": 5,
+      "max_nodes": 50000,
+      "max_boxes": 4096,
+      "trace": [
+        {
+          "operation": "normalize_then_existentially_project_raw_coordinates",
+          "input_sha256": "8742666b5f1a1a90760b18613bce33132d456a3ed8c6985ea1d6570ca4ffab22",
+          "output_sha256": "c9d2ac5268a9c4ca1811287473d4d8e9933c16ecfaa5c591da0900c73fe7d41f"
+        },
+        {
+          "operation": "complement_union_by_interval_subtraction",
+          "input_sha256": "8742666b5f1a1a90760b18613bce33132d456a3ed8c6985ea1d6570ca4ffab22",
+          "output_sha256": "0e207aacb3489f5caf45e526fadef2e075bfec32024073132434c2166978536e",
+          "box_subtractions": 3,
+          "peak_boxes": 2
+        },
+        {
+          "operation": "existentially_project_complement",
+          "input_sha256": "0e207aacb3489f5caf45e526fadef2e075bfec32024073132434c2166978536e",
+          "output_sha256": "4b55f6fd033267bf7e014815a7a4f1d3e0a59e4e5bcf303418be2102cd4fce02"
+        },
+        {
+          "operation": "complement_union_by_interval_subtraction",
+          "input_sha256": "4b55f6fd033267bf7e014815a7a4f1d3e0a59e4e5bcf303418be2102cd4fce02",
+          "output_sha256": "1d5c182a59dc1cffb8d1c5757cb6fe5ce0b5fd540877173059e9c7a8fea3bb25",
+          "box_subtractions": 2,
+          "peak_boxes": 1
+        }
+      ],
+      "quantified_domain": "all finite real-valued completions; no cross-coordinate constraints",
+      "interval_semantics": "exclusive lower, inclusive upper; unbounded ends allowed",
+      "guarantee": "certain implies original head; original head implies possible, for every completion",
+      "probabilistic_assumptions_required": false,
+      "globally_minimum_description_claim": false
+    }
+  },
+  "examples": [
+    {
+      "prediction": 1,
+      "status": "certain_head",
+      "forgotten_features": [
+        0
+      ],
+      "retained_values": {
+        "1": 1.0,
+        "2": 1.0
+      },
+      "head_completion_region": {
+        "0": {
+          "lower": null,
+          "upper": 0.0,
+          "lower_inclusive": false,
+          "upper_inclusive": true
+        }
+      },
+      "default_completion_region": null,
+      "default_region_search": "exact",
+      "scope": "all finite real-valued completions; no cross-coordinate constraints",
+      "interpretation": "Surrogate prediction under missing inputs, not a causal or teacher explanation"
+    },
+    {
+      "prediction": 0,
+      "status": "certain_default",
+      "forgotten_features": [
+        0
+      ],
+      "retained_values": {
+        "1": -1.0,
+        "2": -1.0
+      },
+      "head_completion_region": null,
+      "default_completion_region": {
+        "0": {
+          "lower": null,
+          "upper": null,
+          "lower_inclusive": false,
+          "upper_inclusive": true
+        }
+      },
+      "default_region_search": "exact",
+      "scope": "all finite real-valued completions; no cross-coordinate constraints",
+      "interpretation": "Surrogate prediction under missing inputs, not a causal or teacher explanation"
+    },
+    {
+      "prediction": -1,
+      "status": "ambiguous",
+      "forgotten_features": [
+        0
+      ],
+      "retained_values": {
+        "1": 1.0,
+        "2": -1.0
+      },
+      "head_completion_region": {
+        "0": {
+          "lower": 0.0,
+          "upper": null,
+          "lower_inclusive": false,
+          "upper_inclusive": true
+        }
+      },
+      "default_completion_region": {
+        "0": {
+          "lower": null,
+          "upper": 0.0,
+          "lower_inclusive": false,
+          "upper_inclusive": true
+        }
+      },
+      "default_region_search": "exact",
+      "scope": "all finite real-valued completions; no cross-coordinate constraints",
+      "interpretation": "Surrogate prediction under missing inputs, not a causal or teacher explanation"
+    },
+    {
+      "prediction": -1,
+      "status": "ambiguous",
+      "forgotten_features": [
+        0
+      ],
+      "retained_values": {
+        "1": -1.0,
+        "2": 1.0
+      },
+      "head_completion_region": {
+        "0": {
+          "lower": null,
+          "upper": 0.0,
+          "lower_inclusive": false,
+          "upper_inclusive": true
+        }
+      },
+      "default_completion_region": {
+        "0": {
+          "lower": 0.0,
+          "upper": null,
+          "lower_inclusive": false,
+          "upper_inclusive": true
+        }
+      },
+      "default_region_search": "exact",
+      "scope": "all finite real-valued completions; no cross-coordinate constraints",
+      "interpretation": "Surrogate prediction under missing inputs, not a causal or teacher explanation"
+    }
+  ]
+}

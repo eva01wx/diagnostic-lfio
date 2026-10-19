@@ -1,0 +1,12 @@
+Current release: contextual-forgetting-2026-10-16.
+Title: Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting.
+Release directory: docs/research/contextual_forgetting_2026-10-16/.
+Submission: elsarticle-template-num.tex, elsarticle review,12pt, single column.
+Numeric references: bibliographystyle elsarticle-num.
+LFIO_Negation_Paper.tex is the same manuscript under its compatibility name;
+LFIO_Negation_Paper_review.tex is a compatibility wrapper for that review layout.
+The historical development supplement retains its separate CAS layout.
+Compile the chosen flat TeX document using Tectonic.
+CURRENT_RELEASE.md lists workspace paths for the separate code/record packages.
+Classical logical foundations are attributed; numerical difference bounds,
+infeasibility, residual queries and controlled input costs define the extension.

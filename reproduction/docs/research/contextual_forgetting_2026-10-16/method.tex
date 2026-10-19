@@ -1,0 +1,29 @@
+\subsection{Background-constrained partial-input certificates}\label{sec:contextual-forgetting}
+The unrestricted construction above can admit completions that violate known definitions. For an explicitly supplied background theory $C(r,s)$, define
+\begin{align}
+ V_C(r)&=\exists s\,C(r,s),\\
+ U_C(r)&=\exists s\,[C(r,s)\land F(r,s)],\\
+ L_C(r)&=V_C(r)\land\neg\exists s\,[C(r,s)\land\neg F(r,s)].
+\end{align}
+On feasible retained inputs, these are the familiar necessary/sufficient conditions relative to background knowledge~\citep{doherty2024dualforgetting}. We explicitly require $V_C$: an input with no legal completion must be rejected rather than receiving a vacuous head certificate.
+
+\begin{proposition}[Conditional partial-input certificate]
+If $C(r,\cdot)\land F(r,\cdot)$ is satisfiable and $C(r,\cdot)\land\neg F(r,\cdot)$ is unsatisfiable, every legal completion predicts the head. Reversing the tests certifies the default. If both are satisfiable, the input admits opposite predictions; if neither is satisfiable, it is infeasible.
+\end{proposition}
+\noindent\emph{Proof.} A satisfiable side supplies a legal completion. Unsatisfiability of the opposite side excludes every legal completion of the other class. The two remaining cases follow by the same partition of $C$ into $C\land F$ and $C\land\neg F$. This is the standard semantic argument, not a new forgetting theorem.
+
+The implemented background language is a conjunction of rational difference bounds $x_i-x_j\leq c$ or $x_i-x_j<c$, with a constant-zero node. Equality uses two opposite bounds. An exact Bellman--Ford procedure over rational/infinitesimal pairs rejects negative cycles, including zero cycles containing strict inequalities. A satisfying symbolic potential is converted into rational values with a sufficiently small positive rational infinitesimal, and every returned witness is checked exactly. Input binary64 values and thresholds denote their exact rational values. Thus strict boundaries are not decided by floating-point tolerances. The language covers equality, order, difference bands and individual bounds; it does not cover arbitrary linear combinations or Boolean background theories.
+
+The head query tries compatible DNF bodies. The default query branches over an atom violated in each compatible body and checks the resulting difference constraints. A 50,000-operation allowance yields explicit UNKNOWN on exhaustion. A class is assigned only with a SAT witness and an opposite UNSAT proof; UNKNOWN remains unresolved. Constraints are supplied by the caller, with no inference from observed correlations. Wrong constraints can produce incorrect predictions relative to the true domain even when the conditional logical result is valid.
+
+\subsection{Residual queries and input-cost selection}\label{sec:cost-forgetting}
+Global envelopes serve repeated deployment with a fixed missing-coordinate set, but their DNF can expand. The second interface substitutes only retained values, shares identical residual hidden-coordinate DNFs, and checks head/default completion existence directly. Without background constraints it uses bounded interval subtraction for the residual default query. With constraints its cache key additionally includes retained numerical values appearing in $C$, so different feasible regions cannot be conflated merely because their threshold truth values match. The cache holds at most 4,096 entries with least-recently-used eviction. It stores exact hidden-coordinate witnesses; it does not materialize a readable global formula. Sharing and representation accounting are motivated by knowledge compilation~\citep{zeyen2026divkc,liberatore2024commonsize}; no Horn complexity bound is transferred to this numerical DNF language.
+
+For active source features $A$, positive costs $c_j$ and selection inputs $D_{\rm sel}$, the operational objective is
+\begin{equation}
+ \max_{S\subseteq A}\sum_{j\in S}c_j\quad\text{subject to}\quad
+ \widehat{\operatorname{cov}}_{D_{\rm sel}}(S)\geq q,
+\end{equation}
+under the query work/cache limits and a 512-candidate subset allowance. Coverage counts only certified assignments. The empty subset is a valid fallback; unused coordinates earn no reward. We use greedy heuristics rather than claim subset optimality. Fixed index, source-frequency, singleton-impact and next-coverage policies provide controls. CostAware adds the feasible coordinate minimizing marginal selection-coverage loss per unit cost, breaking ties by larger cost, higher coverage and then index. All choices are saved before test inference.
+
+Wang and Brewster~\citep{wang2024forgettingkgrs} study intentional forgetting of knowledge-graph triples and rule optimization for recommendation, using least-model impact and graph-importance scores. That work motivates task-dependent impact here. Our singleton impact is measured selection uncertainty, and costs are explicit inputs; graph-centrality heuristics are not logical certificates. The present guarantee concerns all numerical completions under the stated constraints, rather than rule firing on one fixed knowledge graph. Neither the greedy objective nor the logical bounds establish minimal human explanations~\citep{calautti2025globalnecessary}.

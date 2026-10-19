@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Schascha1/neurules",
+  "commit": "b7776cee9d5a6e74fd9e3a2c96e37265549a1cf3",
+  "redistribution": "No root LICENSE detected; upstream files are downloaded at reproduction time rather than bundled.",
+  "files": {
+    "neurules.py": "ec97363ceb5a82a70a3bd3f0ec29187307821d57e7906daac2343489a4ecc198",
+    "configs.py": "7e89970845f603e5dec33d6b6a933b0990982eb40dddef245bd2760d56968155",
+    "utils.py": "95899714b156b0b3e4827206bc76ea9b00fd8ddf3a63815fc8bc1eab3a8f16c5",
+    "training.py": "4ff8f75b2d1fbf1f38b89f26d8f7c2537fe7606b10b8cd964b6eb0ddebb14097"
+  }
+}

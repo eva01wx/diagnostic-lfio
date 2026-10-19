@@ -1,0 +1,23 @@
+\begin{kbtable}
+\centering
+\caption{Generalization effects by base learner, across 216 fits each. The numerical semantic stage uses threshold implications that a Boolean-only simplifier cannot exploit.}
+\label{tab:generalization-base}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrr}
+\toprule
+Base & Stage & Original tests & Final tests & Saved (\%) & $\Delta$ fidelity (pp) \\
+\midrule
+DiagnosticLFIO & Boolean exact & 7.09 & 7.09 & 0.0 & +0.00 \\
+DiagnosticLFIO & Semantic exact & 7.09 & 7.07 & 0.2 & +0.00 \\
+DiagnosticLFIO & Simultaneous bound & 7.09 & 6.57 & 6.2 & -0.03 \\
+MedianRestarts & Boolean exact & 6.96 & 6.96 & 0.0 & +0.00 \\
+MedianRestarts & Semantic exact & 6.96 & 6.96 & 0.0 & +0.00 \\
+MedianRestarts & Simultaneous bound & 6.96 & 6.69 & 3.1 & +0.03 \\
+MDLRestarts & Boolean exact & 7.06 & 7.06 & 0.0 & +0.00 \\
+MDLRestarts & Semantic exact & 7.06 & 7.04 & 0.2 & +0.00 \\
+MDLRestarts & Simultaneous bound & 7.06 & 6.67 & 5.1 & -0.05 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

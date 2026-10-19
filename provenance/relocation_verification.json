@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "release": "contextual-forgetting-2026-10-16",
+  "verified_at_utc": "2026-10-19T02:45:18.954469+00:00",
+  "scope": "Original independent flat compilation retained; subsequent author-email-only source edits and rebuilt PDFs verified in author_email_update_audit.json.",
+  "verification_directory": "/home/xuwang/Documents/code/xai-ilp/results/tex_build/elsarticle_flat_20261019",
+  "packages": [
+    {
+      "file": "KBS_Contextual_Forgetting_LaTeX_sources_2026-10-16.zip",
+      "sha256": "a3372d9e19c6127081686736fb3b7b408b7a8e7443aed2b2fa99f4873e812a87",
+      "bytes": 345655,
+      "entries": 84,
+      "entries_verified": true
+    },
+    {
+      "file": "KBS_Contextual_Forgetting_Reproducibility_Code_2026-10-16.zip",
+      "sha256": "813e809d21346e34236a0c3133a26a9c0897bf83c84c2b6fe21d25d02bd960c5",
+      "bytes": 6829195,
+      "entries": 276,
+      "entries_verified": true
+    },
+    {
+      "file": "KBS_Contextual_Forgetting_Experiment_Records_2026-10-16.zip",
+      "sha256": "87a09eccec787b56eea11476c4aa18b0321c7777e9a11b1e7b16b85d75f567ea",
+      "bytes": 63760094,
+      "entries": 13885,
+      "entries_verified": true
+    }
+  ],
+  "all_bundle_members_sha256_verified": true,
+  "payload_members_verified": 14242,
+  "flat_documents": [
+    {
+      "document": "elsarticle-template-num",
+      "pages": 62,
+      "identical_extracted_text": true,
+      "identical_title": true,
+      "identical_authors": true,
+      "warnings": [],
+      "command": [
+        "/home/xuwang/Documents/code/xai-ilp/.tools/tectonic/tectonic",
+        "--keep-logs",
+        "--keep-intermediates",
+        "elsarticle-template-num.tex"
+      ],
+      "returncode": 0
+    },
+    {
+      "document": "LFIO_Negation_Paper",
+      "pages": 62,
+      "identical_extracted_text": true,
+      "identical_title": true,
+      "identical_authors": true,
+      "warnings": [],
+      "command": [
+        "/home/xuwang/Documents/code/xai-ilp/.tools/tectonic/tectonic",
+        "--keep-logs",
+        "--keep-intermediates",
+        "LFIO_Negation_Paper.tex"
+      ],
+      "returncode": 0
+    },
+    {
+      "document": "LFIO_Negation_Paper_review",
+      "pages": 62,
+      "identical_extracted_text": true,
+      "identical_title": true,
+      "identical_authors": true,
+      "warnings": [],
+      "command": [
+        "/home/xuwang/Documents/code/xai-ilp/.tools/tectonic/tectonic",
+        "--keep-logs",
+        "--keep-intermediates",
+        "LFIO_Negation_Paper_review.tex"
+      ],
+      "returncode": 0
+    },
+    {
+      "document": "LFIO_Development_Supplement",
+      "pages": 16,
+      "identical_extracted_text": true,
+      "identical_title": true,
+      "identical_authors": true,
+      "warnings": [],
+      "command": [
+        "/home/xuwang/Documents/code/xai-ilp/.tools/tectonic/tectonic",
+        "--keep-logs",
+        "--keep-intermediates",
+        "LFIO_Development_Supplement.tex"
+      ],
+      "returncode": 0
+    }
+  ],
+  "unchanged_scientific_files": 2043,
+  "previous_release_zip_hashes": {
+    "docs/research/major_revision_2026-10-15/KBS_Experiment_Records_2026-10-15.zip": "78bf87fadacc6ce424fce9944a29d0f5a5495184a2271f26ce6db375355212c9",
+    "docs/research/major_revision_2026-10-15/KBS_LaTeX_sources_2026-10-15.zip": "d087362acaccbfbb5a3f8c27162574731c459d50ac8c469facce303110762797",
+    "docs/research/major_revision_2026-10-15/KBS_Reproducibility_Code_2026-10-15.zip": "3b96b8b98c68b5f3c4e6618393ed5f2cb9707fe878770223b4a705fd424c00f9",
+    "docs/research/rule_generalization_2026-10-16/KBS_LaTeX_sources_2026-10-16.zip": "108d7bca3491061fc133f713c9611244a52b85c83a32505cbfed003cc8046177",
+    "docs/research/rule_generalization_2026-10-16/KBS_Reproducibility_Code_2026-10-16.zip": "49e0fa5c965a7d3fcc3bc4f2d409644fa536f57252ac82e28440706bd0a256f6",
+    "docs/research/rule_generalization_2026-10-16/KBS_Experiment_Records_2026-10-16.zip": "0beae0c167320c5ad7188debef78b380c06949e2742cc59109589f828fe0334d",
+    "docs/research/feature_forgetting_2026-10-16/KBS_Feature_Forgetting_Experiment_Records_2026-10-16.zip": "b94587eb65754b5dec75a20d77d9f4e038f44875c1367102e26db20f091060ca",
+    "docs/research/feature_forgetting_2026-10-16/KBS_Feature_Forgetting_Reproducibility_Code_2026-10-16.zip": "1bc3b6174d21cdff9f1f589beef85dc9ec54420db08b2e1bf0bbd11c59d22a12",
+    "docs/research/feature_forgetting_2026-10-16/KBS_Feature_Forgetting_LaTeX_sources_2026-10-16.zip": "c25134b3d26826d3778a98769f8b3c143246efe45ee52ef1d371f45804b4cfe9"
+  },
+  "reused_original_tectonic_cache": true,
+  "clean_dependency_install_claim": false,
+  "training_repeated": false,
+  "scientific_tests_repeated": false,
+  "scientific_reports_regenerated": false,
+  "prior_full_scientific_verification": "archive/before_elsarticle_review_2026-10-19/docs/research/contextual_forgetting_2026-10-16/relocation_verification.json",
+  "prior_scope_before_author_email_update": "Elsarticle review,12pt migration; independent flat compilation and all bundle payload checks. No training or scientific report regeneration.",
+  "author_email_update": {
+    "author": "Zhiqiang Chen",
+    "email": "zqchen@idt.eitech.edu.cn",
+    "source": "Supplied directly by the author on 2026-10-19.",
+    "verified_at_utc": "2026-10-19T03:22:05.659439+00:00",
+    "corresponding_author": "Xu Wang",
+    "scientific_body_unchanged": true,
+    "scientific_tests_repeated": false,
+    "training_repeated": false,
+    "pdfs": {
+      "main": {
+        "path": "LFIO_Negation_Paper.pdf",
+        "pages": 62,
+        "sha256": "9cf6f538bd30334318616857b3ec6531e1b2af47f3e7cded111d89bc3d436af3",
+        "email_on_first_page": true
+      },
+      "submission": {
+        "path": "elsarticle-template-num.pdf",
+        "pages": 62,
+        "sha256": "1c301b1e603cee41c5aa8badc29ad248a38dc645161305f473c1e1cb0bdeb9e3",
+        "email_on_first_page": true
+      },
+      "review": {
+        "path": "LFIO_Negation_Paper_review.pdf",
+        "pages": 62,
+        "sha256": "6013a8cfb01f887ed366024ac26db74049d76e564f1c8c35fe4835059b1f3a00",
+        "email_on_first_page": true
+      },
+      "development": {
+        "path": "LFIO_Development_Supplement.pdf",
+        "pages": 16,
+        "sha256": "622487157a16efa2b842f5902f063e9a271a665860db92093a195093b584c5b7",
+        "email_on_first_page": true
+      },
+      "CAS_single": {
+        "path": "论文源代码和复现/paper/submission/Manuscript_CAS_single_column.pdf",
+        "pages": 34,
+        "sha256": "672be387a15922a247c77b038c5aca08ada16f612f83a81ad5fd075a99ac96c6",
+        "email_on_first_page": true
+      },
+      "CAS_double": {
+        "path": "论文源代码和复现/paper/submission/Manuscript_CAS_double_column.pdf",
+        "pages": 19,
+        "sha256": "5e3782dadb39d76ce4f5181dabd876a3aaefa910831c873b67a674fa5208d672",
+        "email_on_first_page": true
+      }
+    },
+    "preview_directory": "results/tex_build/second_author_email_20261019",
+    "protected_scientific_files_verified": 2043,
+    "frozen_experiment_record_archive_unchanged": "87a09eccec787b56eea11476c4aa18b0321c7777e9a11b1e7b16b85d75f567ea",
+    "pre_update_snapshot": "docs/research/archive/before_second_author_email_2026-10-19"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "author": "Zhiqiang Chen",
+  "email": "zqchen@idt.eitech.edu.cn",
+  "source": "Supplied directly by the author on 2026-10-19.",
+  "verified_at_utc": "2026-10-19T03:22:05.659439+00:00",
+  "corresponding_author": "Xu Wang",
+  "scientific_body_unchanged": true,
+  "scientific_tests_repeated": false,
+  "training_repeated": false,
+  "pdfs": {
+    "main": {
+      "path": "LFIO_Negation_Paper.pdf",
+      "pages": 62,
+      "sha256": "9cf6f538bd30334318616857b3ec6531e1b2af47f3e7cded111d89bc3d436af3",
+      "email_on_first_page": true
+    },
+    "submission": {
+      "path": "elsarticle-template-num.pdf",
+      "pages": 62,
+      "sha256": "1c301b1e603cee41c5aa8badc29ad248a38dc645161305f473c1e1cb0bdeb9e3",
+      "email_on_first_page": true
+    },
+    "review": {
+      "path": "LFIO_Negation_Paper_review.pdf",
+      "pages": 62,
+      "sha256": "6013a8cfb01f887ed366024ac26db74049d76e564f1c8c35fe4835059b1f3a00",
+      "email_on_first_page": true
+    },
+    "development": {
+      "path": "LFIO_Development_Supplement.pdf",
+      "pages": 16,
+      "sha256": "622487157a16efa2b842f5902f063e9a271a665860db92093a195093b584c5b7",
+      "email_on_first_page": true
+    },
+    "CAS_single": {
+      "path": "论文源代码和复现/paper/submission/Manuscript_CAS_single_column.pdf",
+      "pages": 34,
+      "sha256": "672be387a15922a247c77b038c5aca08ada16f612f83a81ad5fd075a99ac96c6",
+      "email_on_first_page": true
+    },
+    "CAS_double": {
+      "path": "论文源代码和复现/paper/submission/Manuscript_CAS_double_column.pdf",
+      "pages": 19,
+      "sha256": "5e3782dadb39d76ce4f5181dabd876a3aaefa910831c873b67a674fa5208d672",
+      "email_on_first_page": true
+    }
+  },
+  "preview_directory": "results/tex_build/second_author_email_20261019",
+  "protected_scientific_files_verified": 2043,
+  "frozen_experiment_record_archive_unchanged": "87a09eccec787b56eea11476c4aa18b0321c7777e9a11b1e7b16b85d75f567ea",
+  "pre_update_snapshot": "docs/research/archive/before_second_author_email_2026-10-19"
+}

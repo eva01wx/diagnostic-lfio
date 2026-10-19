@@ -1,0 +1,419 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{craven1995}
+M.~Craven, J.~W. Shavlik,
+  \href{https://proceedings.neurips.cc/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html}{Extracting
+  tree-structured representations of trained networks}, in: Advances in Neural
+  Information Processing Systems, Vol.~8, MIT Press, 1995, pp. 24--30.
+\newline\urlprefix\url{https://proceedings.neurips.cc/paper/1995/hash/45f31d16b1058d586fc3be7207b58053-Abstract.html}
+
+\bibitem{wang2017brs}
+T.~Wang, C.~Rudin, F.~Doshi-Velez, Y.~Liu, E.~Klampfl, P.~MacNeille,
+  \href{https://jmlr.org/papers/v18/16-003.html}{A {Bayesian} framework for
+  learning rule sets for interpretable classification}, Journal of Machine
+  Learning Research 18~(70) (2017) 1--37.
+\newline\urlprefix\url{https://jmlr.org/papers/v18/16-003.html}
+
+\bibitem{lawless2023}
+C.~Lawless, S.~Dash, O.~G{\"u}nl{\"u}k, D.~Wei,
+  \href{https://jmlr.org/papers/v24/22-0880.html}{Interpretable and fair
+  {Boolean} rule sets via column generation}, Journal of Machine Learning
+  Research 24~(229) (2023) 1--50.
+\newline\urlprefix\url{https://jmlr.org/papers/v24/22-0880.html}
+
+\bibitem{frenay2014}
+B.~Fr{\'e}nay, M.~Verleysen, Classification in the presence of label noise: A
+  survey, IEEE Transactions on Neural Networks and Learning Systems 25~(5)
+  (2014) 845--869.
+\newblock \href {https://doi.org/10.1109/TNNLS.2013.2292894}
+  {\path{doi:10.1109/TNNLS.2013.2292894}}.
+
+\bibitem{raikovskaia2026}
+A.~Raikovskaia, N.~Rakhimzhanov, O.~S. Pianykh, Interpretation drift in
+  explainable {AI} under label noise, Scientific Reports 16 (2026) 8528.
+\newblock \href {https://doi.org/10.1038/s41598-026-37070-4}
+  {\path{doi:10.1038/s41598-026-37070-4}}.
+
+\bibitem{xu2025}
+S.~Xu, N.~P. Walter, J.~Vreeken,
+  \href{https://eda.rg.cispa.io/prj/neurules/}{Neural rule lists: Learning
+  discretizations, rules, and order in one go}, in: Advances in Neural
+  Information Processing Systems, Vol.~38, 2025, pp. 164990--165018.
+\newblock \href {https://doi.org/10.52202/085713-4970}
+  {\path{doi:10.52202/085713-4970}}.
+\newline\urlprefix\url{https://eda.rg.cispa.io/prj/neurules/}
+
+\bibitem{molero2026}
+C.~Molero-R{\'i}o, B.~Li, T.~Wang, C.~Rudin, Fast {Rashomon} sets of sparse
+  rule sets, Machine Learning 115 (2026) 165.
+\newblock \href {https://doi.org/10.1007/s10994-026-07108-9}
+  {\path{doi:10.1007/s10994-026-07108-9}}.
+
+\bibitem{behzadimanesh2026}
+S.~Behzadimanesh, P.~{Le Bodic}, G.~I. Webb, M.~Boley, Sparse oblique rule
+  boosting for simpler additive rule ensembles, Data Mining and Knowledge
+  Discovery 40 (2026) 109.
+\newblock \href {https://doi.org/10.1007/s10618-026-01241-8}
+  {\path{doi:10.1007/s10618-026-01241-8}}.
+
+\bibitem{liu2025moss}
+B.~Liu, R.~Mazumder, {MOSS}: Multi-objective optimization for stable rule sets,
+  in: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and
+  Data Mining V.2, 2025, pp. 1753--1764.
+\newblock \href {https://doi.org/10.1145/3711896.3737055}
+  {\path{doi:10.1145/3711896.3737055}}.
+
+\bibitem{bastani2019}
+O.~Bastani, C.~Kim, H.~Bastani,
+  \href{https://arxiv.org/abs/1705.08504v6}{Interpreting blackbox models via
+  model extraction}, arXiv:1705.08504, version 6, 24 January 2019 (2019).
+\newline\urlprefix\url{https://arxiv.org/abs/1705.08504v6}
+
+\bibitem{hinton2015}
+G.~Hinton, O.~Vinyals, J.~Dean,
+  \href{https://arxiv.org/abs/1503.02531}{Distilling the knowledge in a neural
+  network}, arXiv:1503.02531 (2015).
+\newline\urlprefix\url{https://arxiv.org/abs/1503.02531}
+
+\bibitem{ribeiro2018}
+M.~T. Ribeiro, S.~Singh, C.~Guestrin, Anchors: High-precision model-agnostic
+  explanations, Proceedings of the AAAI Conference on Artificial Intelligence
+  32~(1) (2018).
+\newblock \href {https://doi.org/10.1609/aaai.v32i1.11491}
+  {\path{doi:10.1609/aaai.v32i1.11491}}.
+
+\bibitem{rudin2019}
+C.~Rudin, Stop explaining black box machine learning models for high stakes
+  decisions and use interpretable models instead, Nature Machine Intelligence
+  1~(5) (2019) 206--215.
+\newblock \href {https://doi.org/10.1038/s42256-019-0048-x}
+  {\path{doi:10.1038/s42256-019-0048-x}}.
+
+\bibitem{lin1994forget}
+F.~Lin, R.~Reiter,
+  \href{https://cdn.aaai.org/Symposia/Fall/1994/FS-94-02/FS94-02-037.pdf}{Forget
+  it!}, in: AAAI Fall Symposium on Relevance, AAAI Press, 1994, pp. 141--146.
+\newline\urlprefix\url{https://cdn.aaai.org/Symposia/Fall/1994/FS-94-02/FS94-02-037.pdf}
+
+\bibitem{lin2001conditions}
+F.~Lin, On strongest necessary and weakest sufficient conditions, Artificial
+  Intelligence 128~(1--2) (2001) 143--159.
+\newblock \href {https://doi.org/10.1016/S0004-3702(01)00070-4}
+  {\path{doi:10.1016/S0004-3702(01)00070-4}}.
+
+\bibitem{darwiche2020reasons}
+A.~Darwiche, A.~Hirth, On the reasons behind decisions, in: ECAI 2020, 2020,
+  pp. 712--720.
+\newblock \href {https://doi.org/10.3233/FAIA200158}
+  {\path{doi:10.3233/FAIA200158}}.
+
+\bibitem{izza2025general}
+Y.~Izza, A.~Ignatiev, S.~Rubin, J.~Marques-Silva, P.~J. Stuckey, Most general
+  explanations of tree ensembles, in: Proceedings of the Thirty-Fourth
+  International Joint Conference on Artificial Intelligence, 2025, pp.
+  5463--5471.
+\newblock \href {https://doi.org/10.24963/ijcai.2025/608}
+  {\path{doi:10.24963/ijcai.2025/608}}.
+
+\bibitem{levy1994forget}
+A.~Y. Levy,
+  \href{https://cdn.aaai.org/Symposia/Fall/1994/FS-94-02/FS94-02-038.pdf}{Discussion
+  of: Forget it!}, in: AAAI Fall Symposium on Relevance, AAAI Press, 1994, p.
+  147.
+\newline\urlprefix\url{https://cdn.aaai.org/Symposia/Fall/1994/FS-94-02/FS94-02-038.pdf}
+
+\bibitem{doherty2024dualforgetting}
+P.~Doherty, A.~Sza{\l}as, Dual forgetting operators in the context of weakest
+  sufficient and strongest necessary conditions, Artificial Intelligence 326
+  (2024) 104036.
+\newblock \href {https://doi.org/10.1016/j.artint.2023.104036}
+  {\path{doi:10.1016/j.artint.2023.104036}}.
+
+\bibitem{wang2024forgettingkgrs}
+X.~Wang, C.~Brewster, Forgetting in knowledge graph based recommender systems,
+  in: Proceedings of the 13th International Conference on Data Science,
+  Technology and Applications, SCITEPRESS, 2024, pp. 309--317.
+\newblock \href {https://doi.org/10.5220/0012757300003756}
+  {\path{doi:10.5220/0012757300003756}}.
+
+\bibitem{liberatore2024commonsize}
+P.~Liberatore, Common equivalence and size of forgetting from {Horn} formulae,
+  Annals of Mathematics and Artificial Intelligence 92 (2024) 1545--1584.
+\newblock \href {https://doi.org/10.1007/s10472-024-09955-5}
+  {\path{doi:10.1007/s10472-024-09955-5}}.
+
+\bibitem{liberatore2025onehead}
+P.~Liberatore, One head is better than two: A polynomial restriction for
+  propositional definite {Horn} forgetting, Journal of Logic, Language and
+  Information 34 (2025) 49--88.
+\newblock \href {https://doi.org/10.1007/s10849-025-09428-w}
+  {\path{doi:10.1007/s10849-025-09428-w}}.
+
+\bibitem{cohen1995}
+W.~W. Cohen, Fast effective rule induction, in: Proceedings of the
+  International Conference on Machine Learning, 1995, pp. 115--123.
+\newblock \href {https://doi.org/10.1016/B978-1-55860-377-6.50023-2}
+  {\path{doi:10.1016/B978-1-55860-377-6.50023-2}}.
+
+\bibitem{friedman2008}
+J.~H. Friedman, B.~E. Popescu, Predictive learning via rule ensembles, Annals
+  of Applied Statistics 2~(3) (2008) 916--954.
+\newblock \href {https://doi.org/10.1214/07-AOAS148}
+  {\path{doi:10.1214/07-AOAS148}}.
+
+\bibitem{yang2017}
+H.~Yang, C.~Rudin, M.~Seltzer,
+  \href{https://proceedings.mlr.press/v70/yang17h.html}{Scalable {Bayesian}
+  rule lists}, in: Proceedings of the 34th International Conference on Machine
+  Learning, Vol.~70 of Proceedings of Machine Learning Research, 2017, pp.
+  3921--3930.
+\newline\urlprefix\url{https://proceedings.mlr.press/v70/yang17h.html}
+
+\bibitem{lakkaraju2016}
+H.~Lakkaraju, S.~H. Bach, J.~Leskovec, Interpretable decision sets: A joint
+  framework for description and prediction, in: Proceedings of the 22nd ACM
+  SIGKDD International Conference on Knowledge Discovery and Data Mining, 2016,
+  pp. 1675--1684.
+\newblock \href {https://doi.org/10.1145/2939672.2939874}
+  {\path{doi:10.1145/2939672.2939874}}.
+
+\bibitem{poursabzi2021}
+F.~Poursabzi-Sangdeh, D.~G. Goldstein, J.~M. Hofman, J.~W. Vaughan, H.~Wallach,
+  Manipulating and measuring model interpretability, in: Proceedings of the
+  2021 CHI Conference on Human Factors in Computing Systems, 2021, pp. 1--52.
+\newblock \href {https://doi.org/10.1145/3411764.3445315}
+  {\path{doi:10.1145/3411764.3445315}}.
+
+\bibitem{wittgenstein}
+{Wittgenstein contributors},
+  \href{https://github.com/imoscovitz/wittgenstein}{{wittgenstein}: {Python}
+  implementation of {RIPPER} and {IREP}}, software version 0.3.5 used in this
+  study (n.d.).
+\newline\urlprefix\url{https://github.com/imoscovitz/wittgenstein}
+
+\bibitem{imodels}
+C.~Singh, et~al., \href{https://csinva.io/imodels/}{{imodels}: A {Python}
+  package for fitting interpretable models}, software version 3.0.0 used in
+  this study (n.d.).
+\newline\urlprefix\url{https://csinva.io/imodels/}
+
+\bibitem{angelino2018}
+E.~Angelino, N.~Larus-Stone, D.~Alabi, M.~Seltzer, C.~Rudin,
+  \href{https://jmlr.org/papers/v18/17-716.html}{Learning certifiably optimal
+  rule lists for categorical data}, Journal of Machine Learning Research
+  18~(234) (2018) 1--78.
+\newline\urlprefix\url{https://jmlr.org/papers/v18/17-716.html}
+
+\bibitem{lin2020}
+J.~Lin, C.~Zhong, D.~Hu, C.~Rudin, M.~Seltzer,
+  \href{https://proceedings.mlr.press/v119/lin20g.html}{Generalized and
+  scalable optimal sparse decision trees}, in: Proceedings of the 37th
+  International Conference on Machine Learning, Vol. 119 of Proceedings of
+  Machine Learning Research, 2020, pp. 6150--6160.
+\newline\urlprefix\url{https://proceedings.mlr.press/v119/lin20g.html}
+
+\bibitem{dash2018}
+S.~Dash, O.~G{\"u}nl{\"u}k, D.~Wei,
+  \href{https://proceedings.neurips.cc/paper_files/paper/2018/hash/743394beff4b1282ba735e5e3723ed74-Abstract.html}{Boolean
+  decision rules via column generation}, in: Advances in Neural Information
+  Processing Systems, Vol.~31, 2018, pp. 4660--4670.
+\newline\urlprefix\url{https://proceedings.neurips.cc/paper_files/paper/2018/hash/743394beff4b1282ba735e5e3723ed74-Abstract.html}
+
+\bibitem{rissanen1978}
+J.~Rissanen, Modeling by shortest data description, Automatica 14~(5) (1978)
+  465--471.
+\newblock \href {https://doi.org/10.1016/0005-1098(78)90005-5}
+  {\path{doi:10.1016/0005-1098(78)90005-5}}.
+
+\bibitem{hocquette2024}
+C.~Hocquette, A.~Niskanen, M.~J{\"a}rvisalo, A.~Cropper, Learning {MDL} logic
+  programs from noisy data, Proceedings of the AAAI Conference on Artificial
+  Intelligence 38~(9) (2024) 10553--10561.
+\newblock \href {https://doi.org/10.1609/aaai.v38i9.28925}
+  {\path{doi:10.1609/aaai.v38i9.28925}}.
+
+\bibitem{inoue2014}
+K.~Inoue, T.~Ribeiro, C.~Sakama, Learning from interpretation transition,
+  Machine Learning 94~(1) (2014) 51--79.
+\newblock \href {https://doi.org/10.1007/s10994-013-5353-8}
+  {\path{doi:10.1007/s10994-013-5353-8}}.
+
+\bibitem{wang2017lfio}
+Y.~Wang, X.~Wang, Y.~Huang, \href{https://ceur-ws.org/Vol-1865/}{Learning
+  {Datalog} programs from input and output}, in: Proceedings of the 26th
+  International Conference on Inductive Logic Programming (Short Papers), Vol.
+  1865 of CEUR Workshop Proceedings, 2017, pp. 81--87, iLP 2016; proceedings
+  published 22 June 2017.
+\newline\urlprefix\url{https://ceur-ws.org/Vol-1865/}
+
+\bibitem{cropper2022}
+A.~Cropper, S.~Duman{\v{c}}i{\'c}, R.~Evans, S.~H. Muggleton, Inductive logic
+  programming at 30, Machine Learning 111~(1) (2022) 147--172.
+\newblock \href {https://doi.org/10.1007/s10994-021-06089-1}
+  {\path{doi:10.1007/s10994-021-06089-1}}.
+
+\bibitem{evans2018}
+R.~Evans, E.~Grefenstette, Learning explanatory rules from noisy data, Journal
+  of Artificial Intelligence Research 61 (2018) 1--64.
+\newblock \href {https://doi.org/10.1613/jair.5714}
+  {\path{doi:10.1613/jair.5714}}.
+
+\bibitem{gao2022}
+K.~Gao, H.~Wang, Y.~Cao, K.~Inoue, Learning from interpretation transition
+  using differentiable logic programming semantics, Machine Learning 111~(1)
+  (2022) 123--145.
+\newblock \href {https://doi.org/10.1007/s10994-021-06058-8}
+  {\path{doi:10.1007/s10994-021-06058-8}}.
+
+\bibitem{wei2026}
+B.~Wei, Z.~Zhu, \href{https://arxiv.org/abs/2408.11918v2}{Interpretable
+  classification via a rule network with selective logical operators},
+  arXiv:2408.11918, version 2, 2 April 2026 (2026).
+\newline\urlprefix\url{https://arxiv.org/abs/2408.11918v2}
+
+\bibitem{soegeng2026}
+H.~F. Soegeng, S.~K. Modi, T.~Peyrin,
+  \href{https://arxiv.org/abs/2603.07606v2}{{TT-Sparse}: Learning sparse rule
+  models with differentiable truth tables}, to appear in Proceedings of the
+  International Conference on Machine Learning (ICML); arXiv:2603.07606,
+  version 2, 6 July 2026 (2026).
+\newline\urlprefix\url{https://arxiv.org/abs/2603.07606v2}
+
+\bibitem{algan2021}
+G.~Algan, I.~Ulusoy, Image classification with deep learning in the presence of
+  noisy labels: A survey, Knowledge-Based Systems 215 (2021) 106771.
+\newblock \href {https://doi.org/10.1016/j.knosys.2021.106771}
+  {\path{doi:10.1016/j.knosys.2021.106771}}.
+
+\bibitem{benard2021}
+C.~B{\'e}nard, G.~Biau, S.~da~Veiga, E.~Scornet, {SIRUS}: Stable and
+  interpretable {RUle} set for classification, Electronic Journal of Statistics
+  15~(1) (2021) 427--505.
+\newblock \href {https://doi.org/10.1214/20-EJS1792}
+  {\path{doi:10.1214/20-EJS1792}}.
+
+\bibitem{kozielski2025}
+M.~Kozielski, M.~Sikora, {\L}.~Wawrowski, Towards consistency of rule-based
+  explainer and black box model---fusion of rule induction and {XAI}-based
+  feature importance, Knowledge-Based Systems 311 (2025) 113092.
+\newblock \href {https://doi.org/10.1016/j.knosys.2025.113092}
+  {\path{doi:10.1016/j.knosys.2025.113092}}.
+
+\bibitem{kopanja2025}
+M.~Kopanja, M.~Savi{\'c}, L.~Longo, {CORTEX}: Cost-sensitive rule and tree
+  extraction method, Knowledge-Based Systems 330 (2025) 114592.
+\newblock \href {https://doi.org/10.1016/j.knosys.2025.114592}
+  {\path{doi:10.1016/j.knosys.2025.114592}}.
+
+\bibitem{liu2026extraction}
+B.~Liu, R.~Mazumder, P.~Radchenko, Extracting interpretable models from tree
+  ensembles: Computational and statistical perspectives, Journal of the
+  American Statistical AssociationPublished online; author manuscript
+  arXiv:2506.20114v5 (2026).
+\newblock \href {https://doi.org/10.1080/01621459.2026.2657609}
+  {\path{doi:10.1080/01621459.2026.2657609}}.
+
+\bibitem{vu2026}
+B.~D. Vu, D.~S. Watson, \href{https://arxiv.org/abs/2605.11841v1}{Minimax rates
+  and spectral distillation for tree ensembles}, preprint, arXiv:2605.11841,
+  version 1, 12 May 2026 (2026).
+\newline\urlprefix\url{https://arxiv.org/abs/2605.11841v1}
+
+\bibitem{fayyad1993}
+U.~M. Fayyad, K.~B. Irani,
+  \href{https://www.ijcai.org/Proceedings/93-2/Papers/022.pdf}{Multi-interval
+  discretization of continuous-valued attributes for classification learning},
+  in: Proceedings of the Thirteenth International Joint Conference on
+  Artificial Intelligence, 1993, pp. 1022--1027.
+\newline\urlprefix\url{https://www.ijcai.org/Proceedings/93-2/Papers/022.pdf}
+
+\bibitem{nienhuys1996}
+S.-H. Nienhuys-Cheng, R.~de~Wolf, \href{https://arxiv.org/abs/cs/9605102}{Least
+  generalizations and greatest specializations of sets of clauses}, Journal of
+  Artificial Intelligence Research 4 (1996) 341--363.
+\newline\urlprefix\url{https://arxiv.org/abs/cs/9605102}
+
+\bibitem{clopper1934}
+C.~J. Clopper, E.~S. Pearson, The use of confidence or fiducial limits
+  illustrated in the case of the binomial, Biometrika 26~(4) (1934) 404--413.
+\newblock \href {https://doi.org/10.1093/biomet/26.4.404}
+  {\path{doi:10.1093/biomet/26.4.404}}.
+
+\bibitem{zeyen2026divkc}
+O.~Zeyen, K.~Tit, M.~Cordy, G.~Perrouin, {DivKC}: A divide-and-conquer approach
+  to knowledge compilation, in: Fundamental Approaches to Software Engineering,
+  Vol. 16504 of Lecture Notes in Computer Science, Springer, 2026, pp.
+  126--146.
+\newblock \href {https://doi.org/10.1007/978-3-032-22774-4_7}
+  {\path{doi:10.1007/978-3-032-22774-4_7}}.
+
+\bibitem{calautti2025globalnecessary}
+M.~Calautti, E.~Malizia, C.~Molinaro, On the complexity of global necessary
+  reasons to explain classification, in: Proceedings of the 22nd International
+  Conference on Principles of Knowledge Representation and Reasoning, 2025, pp.
+  206--217.
+\newblock \href {https://doi.org/10.24963/kr.2025/21}
+  {\path{doi:10.24963/kr.2025/21}}.
+
+\bibitem{rice2019}
+I.~Cinar, M.~Koklu, Rice (cammeo and osmancik), UCI Machine Learning
+  Repository, dataset (2019).
+\newblock \href {https://doi.org/10.24432/C5MW4Z} {\path{doi:10.24432/C5MW4Z}}.
+
+\bibitem{raisin2020}
+I.~Cinar, M.~Koklu, S.~Tasdemir, Raisin, UCI Machine Learning Repository,
+  dataset (2020).
+\newblock \href {https://doi.org/10.24432/C5660T} {\path{doi:10.24432/C5660T}}.
+
+\bibitem{htru2015}
+R.~Lyon, {HTRU2}, UCI Machine Learning Repository, dataset (2015).
+\newblock \href {https://doi.org/10.24432/C5DK6R} {\path{doi:10.24432/C5DK6R}}.
+
+\bibitem{qsar2013}
+K.~Mansouri, T.~Ringsted, D.~Ballabio, R.~Todeschini, V.~Consonni, {QSAR}
+  biodegradation, UCI Machine Learning Repository, dataset (2013).
+\newblock \href {https://doi.org/10.24432/C5H60M} {\path{doi:10.24432/C5H60M}}.
+
+\bibitem{climate2013}
+D.~Lucas, R.~Klein, J.~Tannahill, D.~Ivanova, S.~Brandon, D.~Domyancic,
+  Y.~Zhang, Climate model simulation crashes, UCI Machine Learning Repository,
+  dataset (2013).
+\newblock \href {https://doi.org/10.24432/C5HG71} {\path{doi:10.24432/C5HG71}}.
+
+\bibitem{retinopathy2014}
+B.~Antal, A.~Hajdu, Diabetic retinopathy debrecen, UCI Machine Learning
+  Repository, dataset (2014).
+\newblock \href {https://doi.org/10.24432/C5XP4P} {\path{doi:10.24432/C5XP4P}}.
+
+\bibitem{efron1979}
+B.~Efron, Bootstrap methods: Another look at the jackknife, Annals of
+  Statistics 7~(1) (1979) 1--26.
+\newblock \href {https://doi.org/10.1214/aos/1176344552}
+  {\path{doi:10.1214/aos/1176344552}}.
+
+\bibitem{magic}
+R.~Bock, {MAGIC} gamma telescope, UCI Machine Learning Repository, dataset
+  (2004).
+\newblock \href {https://doi.org/10.24432/C52C8B} {\path{doi:10.24432/C52C8B}}.
+
+\bibitem{haberman}
+S.~Haberman, Haberman's survival, UCI Machine Learning Repository, dataset
+  (1976).
+\newblock \href {https://doi.org/10.24432/C5XK51} {\path{doi:10.24432/C5XK51}}.
+
+\bibitem{sonar}
+T.~Sejnowski, R.~Gorman, Connectionist bench (sonar, mines vs. rocks), UCI
+  Machine Learning Repository, dataset (1988).
+\newblock \href {https://doi.org/10.24432/C5T01Q} {\path{doi:10.24432/C5T01Q}}.
+
+\bibitem{transfusion}
+I.-C. Yeh, Blood transfusion service center, UCI Machine Learning Repository,
+  dataset (2008).
+\newblock \href {https://doi.org/10.24432/C5GS39} {\path{doi:10.24432/C5GS39}}.
+
+\end{thebibliography}

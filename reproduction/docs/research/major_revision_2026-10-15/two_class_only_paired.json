@@ -1,0 +1,133 @@
+[
+  {
+    "first": "DiagnosticLFIO",
+    "second": "MedianRestarts",
+    "mean": 0.01257281675102477,
+    "low": -0.003975139079241976,
+    "high": 0.03008107656597037,
+    "pairs": 17,
+    "datasets": 6,
+    "per_dataset": {
+      "climate": 0.011904761904761862,
+      "htru2": 0.037824056441710274,
+      "qsar": -0.017877798190106858,
+      "raisin": 0.0,
+      "retinopathy": 0.043585880349783356,
+      "rice": 0.0
+    },
+    "leave_one_dataset_min": 0.006370204031273055,
+    "leave_one_dataset_max": 0.0186629397392511
+  },
+  {
+    "first": "DiagnosticLFIO",
+    "second": "MDLRestarts",
+    "mean": -0.007494425247918151,
+    "low": -0.016301701541916506,
+    "high": 0.00047331371693055176,
+    "pairs": 17,
+    "datasets": 6,
+    "per_dataset": {
+      "climate": 0.0,
+      "htru2": 0.0,
+      "qsar": -0.01556910909903871,
+      "raisin": 0.006136330466874007,
+      "retinopathy": -0.010157651718450289,
+      "rice": -0.025376121136893914
+    },
+    "leave_one_dataset_min": -0.010220576390876583,
+    "leave_one_dataset_max": -0.003918086070122999
+  },
+  {
+    "first": "DiagnosticLFIO",
+    "second": "MedianRepair",
+    "mean": 0.013599726001085883,
+    "low": -0.008699249637578616,
+    "high": 0.03158066590922599,
+    "pairs": 17,
+    "datasets": 6,
+    "per_dataset": {
+      "climate": 0.0357142857142857,
+      "htru2": 0.037824056441710274,
+      "qsar": -0.030127755837995502,
+      "raisin": 0.0,
+      "retinopathy": 0.03818776968851482,
+      "rice": 0.0
+    },
+    "leave_one_dataset_min": 0.008682117263600094,
+    "leave_one_dataset_max": 0.022345222368902157
+  },
+  {
+    "first": "DiagnosticLFIO",
+    "second": "NativeTree",
+    "mean": -0.013717841871191907,
+    "low": -0.03039977831221402,
+    "high": 0.000577288896778929,
+    "pairs": 17,
+    "datasets": 6,
+    "per_dataset": {
+      "climate": 0.014285714285714235,
+      "htru2": -0.005816850153889737,
+      "qsar": -0.04786946098606822,
+      "raisin": -0.0011812057544844008,
+      "retinopathy": -0.019257998977061114,
+      "rice": -0.02246724964136219
+    },
+    "leave_one_dataset_min": -0.019318553102573136,
+    "leave_one_dataset_max": -0.006887518048216641
+  },
+  {
+    "first": "DiagnosticLFIO",
+    "second": "BRCG-light",
+    "mean": -0.014387736058335572,
+    "low": -0.03420766382797151,
+    "high": 0.0020712698268148316,
+    "pairs": 17,
+    "datasets": 6,
+    "per_dataset": {
+      "climate": -0.019162087912087955,
+      "htru2": 0.010698098838093029,
+      "qsar": -0.05819574972262842,
+      "raisin": 0.0040786058583611355,
+      "retinopathy": -0.003066867092732813,
+      "rice": -0.020678416319018417
+    },
+    "leave_one_dataset_min": -0.019404903037621293,
+    "leave_one_dataset_max": -0.005626133325477004
+  },
+  {
+    "first": "DiagnosticLFIO",
+    "second": "FastSRS",
+    "mean": -0.001959063513349849,
+    "low": -0.01677020773288963,
+    "high": 0.012815673967355353,
+    "pairs": 17,
+    "datasets": 6,
+    "per_dataset": {
+      "climate": -0.028708791208791273,
+      "htru2": 0.010698098838093029,
+      "qsar": 0.027006956334278926,
+      "raisin": 0.004442326565377204,
+      "retinopathy": -0.004284575882040935,
+      "rice": -0.020908395727016044
+    },
+    "leave_one_dataset_min": -0.007752267482875605,
+    "leave_one_dataset_max": 0.003390882025738436
+  },
+  {
+    "first": "DiagnosticLFIO",
+    "second": "NeuRulesNative",
+    "mean": 0.2568442675702183,
+    "low": 0.025365082520824422,
+    "high": 0.4883234526196122,
+    "pairs": 10,
+    "datasets": 4,
+    "per_dataset": {
+      "climate": 0.619047619047619,
+      "htru2": 0.3575992861916053,
+      "raisin": 0.06901133990101227,
+      "rice": -0.018281174859363425
+    },
+    "leave_one_dataset_min": 0.13610981707775138,
+    "leave_one_dataset_max": 0.3485527483800788
+  }
+]

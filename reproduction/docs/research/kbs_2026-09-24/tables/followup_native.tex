@@ -1,0 +1,19 @@
+\begin{kbtable}
+\centering
+\caption{Native-input RF teachers: ten datasets and three fresh split seeds, eight-condition ceiling. Refined LFIO and BRCG-light both use maximum conjunction depth two in both vocabulary arms. Thresholds are fit-only median or quartiles plus median; BRCG-light searches 30 penalty/polarity configurations. The shorter-head tree uses supervised native thresholds. Fidelity is percent; conditions are actual sizes.}
+\label{tab:followup_native}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{lrrrrrr}
+\toprule
+Student & Clean fidelity & Clean cond. & Clean feasible & Noisy fidelity & Noisy cond. & Noisy feasible \\
+\midrule
+Refined, median & 79.80 & 4.77 & 30/30 & 75.77 & 4.37 & 30/30 \\
+Refined, three quantiles & 83.19 & 6.23 & 30/30 & 79.06 & 6.50 & 30/30 \\
+BRCG-light, median & 81.79 & 4.93 & 30/30 & 77.15 & 3.30 & 30/30 \\
+BRCG-light, three quantiles & 84.11 & 5.40 & 30/30 & 79.91 & 4.07 & 30/30 \\
+Tree, native thresholds & 82.54 & 3.27 & 30/30 & 77.88 & 2.87 & 30/30 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

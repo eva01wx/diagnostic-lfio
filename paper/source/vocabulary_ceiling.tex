@@ -1,0 +1,19 @@
+\begin{kbtable}
+\centering
+\caption{Retrospective empirical vocabulary ceilings on frozen native-teacher test sets. Entries are clean/noisy percentages, except predicate counts. Each cohort contains ten datasets and three seeds per noise level; means weight datasets equally. Refined LFIO fidelity uses the unchanged eight-condition selections. The median in the later cohort is an encoding diagnostic only, with no fitted student. Distance to the unrestricted decoder ceiling also includes capacity, fitting and selection effects; it is not a certified optimization gap.}
+\label{tab:vocabulary_ceiling}
+\small
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{llrrrr}
+\toprule
+Split seeds & Vocabulary & Predicates & Ceiling & Refined fidelity & Distance (pp) \\
+\midrule
+4001--4003 & Median & 22.50/22.50 & 92.75/91.08 & 79.80/75.77 & 12.96/15.32 \\
+4001--4003 & Quantile & 57.80/57.80 & 98.26/97.43 & 83.19/79.06 & 15.07/18.37 \\
+5001--5003 & Median & 22.50/22.50 & 92.90/90.74 & --/-- & --/-- \\
+5001--5003 & Quantile & 57.80/57.80 & 98.17/97.23 & 85.68/80.29 & 12.49/16.94 \\
+5001--5003 & MDL & 46.70/37.23 & 95.72/93.86 & 85.75/79.59 & 9.97/14.27 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{kbtable}

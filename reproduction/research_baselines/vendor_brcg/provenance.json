@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Trusted-AI/AIX360",
+  "commit": "0ce916f33b7e149c12dfdb85ae7dcad831fbc1f2",
+  "retrieved": "2026-09-21",
+  "variant": "BRCG-light: heuristic beam-search pricing and integer rounding; not the exact-IP 2023 CG solver",
+  "files": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "boolean_rule_cg.py": "c79a7023d93f2ab8b6e99f23dd1f397400cdbd73206fc85777d6ef23fdf2a8b6",
+    "beam_search.py": "2a3283c3ec9ee4a893bde0c87d4c3ad26b268c99665bd4c54cf027a8d70b1baa"
+  }
+}
