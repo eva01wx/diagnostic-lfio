@@ -1,11 +1,6 @@
 # Diagnostic LFIO
 
-Algorithm source code and reproducibility artifacts for compact rule distillation,
-diagnostic allocation, explicit rule generalization and certified feature forgetting.
-
-**Authors:** Xu Wang and Zhiqiang Chen. Contact: xwang@idt.eitech.edu.cn;
-zqchen@idt.eitech.edu.cn.
-**Scientific release:** `contextual-forgetting-2026-10-16`.
+Code and experiments for the paper **Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting**.
 
 ## Get the code and verify the files
 
