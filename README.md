@@ -20,8 +20,6 @@ For SSH, use `git@github.com:eva01wx/diagnostic-lfio.git`.
 **Scientific release:** `contextual-forgetting-2026-10-16`.
 **Repository copy prepared:** 19 October 2026.
 
-中文上传说明见 [上传说明.md](上传说明.md)。
-
 The selected submission manuscript is the **34-page CAS single-column review version**:
 [paper/submission/Manuscript_CAS_single_column.pdf](paper/submission/Manuscript_CAS_single_column.pdf).
 It uses `\documentclass[a4paper,fleqn,review]{cas-sc}` from the official CAS package
@@ -105,28 +103,6 @@ Record replay is distinct from fresh model training. Fresh execution commands,
 source locks and historical stages are described in the
 [reproduction guide](reproduction/docs/research/REPRODUCE.md).
 Use a separate working copy for new experiments or regenerated reports.
-
-## Build the selected paper
-
-With [Tectonic](https://tectonic-typesetting.github.io/) installed:
-
-```bash
-python -m zipfile -e paper/submission/Manuscript_CAS_single_column_sources.zip paper/submission/source
-cd paper/submission/source
-tectonic --keep-logs --keep-intermediates Manuscript.tex
-```
-
-The selected source archive is flat and has one complete main file, `Manuscript.tex`.
-The CAS double-column alternative has a separate matching source ZIP.
-All scientific findings and references are shared. The earlier `paper/source/`
-folder and the three original archives retain the preceding elsarticle layout.
-The development supplement remains a separate historical CAS document.
-
-The CAS bundle contains both single- and double-column classes. The selected
-single-column review format retains the author's latest explicit layout preference;
-the template link does not establish a mandatory double-column requirement.
-See [CAS provenance and layouts](paper/submission/README.md) and the
-[Elsevier LaTeX instructions](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions).
 
 Funding, authorship contributions and AI assistance are disclosed in the paper.
 Submission-preparation worksheets inside the preserved code snapshot are drafts,

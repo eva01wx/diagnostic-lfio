@@ -9,8 +9,8 @@
       "sha256": "47ed84f3a24fbe8cdb187f0c545165eb3577eaf000b42913b599ec96adaa6b06"
     },
     "README.md": {
-      "bytes": 6631,
-      "sha256": "ce47e8f53446a76d66f87ad3c234953bb26987e2149210d605f1d99962e9990b"
+      "bytes": 5461,
+      "sha256": "c594df1693d9678709754edf682df3358f0dea98dab0aae904510008809915b6"
     },
     "artifacts/KBS_Contextual_Forgetting_Experiment_Records_2026-10-16.zip": {
       "bytes": 63760094,
@@ -1595,10 +1595,6 @@
     "tools/verify_release.py": {
       "bytes": 1682,
       "sha256": "644aa61279eb7d49324a5fc07cfcf310d9279ff36c0d602f85694453a9b698e3"
-    },
-    "上传说明.md": {
-      "bytes": 4018,
-      "sha256": "29d816ee95011f8d19162016aedb5864a4cddc3c033246dd98e82063b58d6453"
     }
   },
   "author_metadata_updated_on": "2026-10-19",
