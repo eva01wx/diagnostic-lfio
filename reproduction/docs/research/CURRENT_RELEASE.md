@@ -1,19 +1,19 @@
-# Current code and experiment release
+# 当前论文与公开代码
 
-Algorithm: Diagnostic LFIO.
-Release: `contextual-forgetting-2026-10-16`.
+论文：**Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting**。
 
-| Component | Location |
+算法源代码与实验复现材料已公开：
+[https://github.com/eva01wx/diagnostic-lfio/](https://github.com/eva01wx/diagnostic-lfio/)。
+
+| 内容 | 公开入口 |
 | --- | --- |
-| Diagnostic allocation | `src/lfio_diagnostic.py` |
-| Explicit generalization | `src/rule_generalization.py`, `src/lfio_generalized.py` |
-| Global feature forgetting | `src/feature_forgetting.py` |
-| Contextual forgetting | `src/contextual_forgetting.py` |
-| Cost-aware feature selection | `src/forgetting_selection.py` |
-| Latest metrics and audits | `docs/research/contextual_forgetting_2026-10-16/` |
-| Frozen records | `artifacts/experiment_records_2026-10-16.zip` at repository root |
+| 安装、校验与快速开始 | [仓库 README](https://github.com/eva01wx/diagnostic-lfio/#readme) |
+| 算法实现 | [源代码](https://github.com/eva01wx/diagnostic-lfio/tree/main/reproduction/src) |
+| 数据及来源 | [数据目录](https://github.com/eva01wx/diagnostic-lfio/tree/main/reproduction/data) |
+| 固定协议、指标及报告 | [研究文档](https://github.com/eva01wx/diagnostic-lfio/tree/main/reproduction/docs/research) |
+| 实验记录及校验清单 | [实验记录归档](https://github.com/eva01wx/diagnostic-lfio/tree/main/artifacts) |
+| 记录恢复、逐阶段重放与新执行 | [复现说明](https://github.com/eva01wx/diagnostic-lfio/blob/main/reproduction/docs/research/REPRODUCE.md) |
 
-Use the [reproduction guide](REPRODUCE.md) to restore records and replay each stage.
-Experimental sources, fixed protocols, data, splits and raw records retain their
-original bytes. Later extensions reuse the same six datasets; they are not new
-independent dataset cohorts. Record replay and fresh training are separate workflows.
+公开材料保留原始拟合、划分、预测、选择记录、计时及来源哈希。
+后续泛化与遗忘扩展复用相同六数据集；不计作新增独立数据集。
+代码公开不代表论文已投稿、录用或发表。

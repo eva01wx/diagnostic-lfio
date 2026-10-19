@@ -1,5 +1,7 @@
 # Diagnostic LFIO experiments
 
+Public repository: [https://github.com/eva01wx/diagnostic-lfio/](https://github.com/eva01wx/diagnostic-lfio/).
+
 This directory contains the algorithm implementations, baseline adapters, tests,
 input data, fixed protocols and experiment reports.
 

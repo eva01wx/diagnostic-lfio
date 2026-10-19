@@ -1,5 +1,7 @@
 # Reproduce Diagnostic LFIO experiments
 
+Public repository: [https://github.com/eva01wx/diagnostic-lfio/](https://github.com/eva01wx/diagnostic-lfio/).
+
 Run commands from `reproduction/` with the Python 3.12 environment activated,
 unless a different location is explicitly stated. The [root README](../../../README.md)
 contains installation and verification commands. Versions are pinned in

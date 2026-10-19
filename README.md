@@ -2,6 +2,8 @@
 
 Code and experiments for the paper **Compact Rule Distillation with Diagnostic Allocation and Certified Feature Forgetting**.
 
+Public source code and experiment records: [https://github.com/eva01wx/diagnostic-lfio/](https://github.com/eva01wx/diagnostic-lfio/).
+
 ## Get the code and verify the files
 
 ```bash

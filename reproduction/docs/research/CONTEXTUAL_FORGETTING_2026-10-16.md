@@ -1,10 +1,6 @@
 # 背景约束、成本选择与实例查询：实现及结果
 
-本实现支持背景差值约束、成本约束下的特征隐藏选择，以及按实例进行的剩余查询。
-算法与实验版本为 `contextual-forgetting-2026-10-16`，入口见
-[当前代码与实验版本](CURRENT_RELEASE.md)。实验报告位于
-`docs/research/contextual_forgetting_2026-10-16/`，原始记录位于
-`results/contextual_forgetting_20261016/`。
+算法源代码与实验复现材料公开于 [https://github.com/eva01wx/diagnostic-lfio/](https://github.com/eva01wx/diagnostic-lfio/)。
 
 ## 实际新增的贡献
 

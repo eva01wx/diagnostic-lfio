@@ -9,8 +9,8 @@
       "sha256": "614aed6016660f60c55e56178cc1f9992cf8e222bf8e08486e3f1f89b93348e5"
     },
     "README.md": {
-      "bytes": 3324,
-      "sha256": "cb3a627c27f16ac6982fc1eab64b107f472778f598f230d66994ec037efab893"
+      "bytes": 3460,
+      "sha256": "b8409b9ec728657e51f7a377a7acb7b303f61b21d57e75b5161ae99b283c4fc0"
     },
     "artifacts/experiment_records_2026-10-16.zip": {
       "bytes": 61808865,
@@ -85,8 +85,8 @@
       "sha256": "deed75d2736a775b83c48d45d22a8cbb99c63ddc2b175d8f2f80669d989fe391"
     },
     "reproduction/README.md": {
-      "bytes": 953,
-      "sha256": "06a0379bce574e71a0ee64553a04021e2b1cfff7bc5c0548d5b6ae8f21def635"
+      "bytes": 1065,
+      "sha256": "b2b48622af4830ad118b8bb5622585de4e0bf7dec3ae23ea03bdf7f8defe1af8"
     },
     "reproduction/benchmark_contextual_forgetting.py": {
       "bytes": 2726,
@@ -177,16 +177,16 @@
       "sha256": "41fc3a02b34d968bc96b301c0a9dd097107121507b331e4a131df5a82a80809e"
     },
     "reproduction/docs/research/CONTEXTUAL_FORGETTING_2026-10-16.md": {
-      "bytes": 5623,
-      "sha256": "a12266f6154eaade6cbb6beb80e58197b684a0225aa3f57c608df6d930765558"
+      "bytes": 5389,
+      "sha256": "504b633ff79a29069357652056354b28f8f66428a7ed85405473856b10ab3779"
     },
     "reproduction/docs/research/CONTEXTUAL_FORGETTING_PROTOCOL_2026-10-16.md": {
       "bytes": 6394,
       "sha256": "b27a06d530171eca373460229317879dfca296b785633637668f3c01f81e0f4f"
     },
     "reproduction/docs/research/CURRENT_RELEASE.md": {
-      "bytes": 975,
-      "sha256": "725bcbc6db0d822e323829a4342fc9c3227a441ad4ef7a6c9315d318246bc5e9"
+      "bytes": 1282,
+      "sha256": "c46e71822b70c37eb1a8dc301560b7cf79212027c6857098fddb786a4cc609d7"
     },
     "reproduction/docs/research/FEATURE_FORGETTING_2026-10-16.md": {
       "bytes": 8057,
@@ -213,8 +213,8 @@
       "sha256": "b9eb3324831c034ca900f86441b3ee227ab6cb6dc356e065525f669f275b14e7"
     },
     "reproduction/docs/research/REPRODUCE.md": {
-      "bytes": 4340,
-      "sha256": "b24acfe5bf110da015ec6fcfd8381492864bb56d508cfc479d5975454ca161d3"
+      "bytes": 4452,
+      "sha256": "be6d8a9a82f79032db54adb969624cdbda03aec0cf6429dc0897023860ee3c1c"
     },
     "reproduction/docs/research/RULE_GENERALIZATION_2026-10-16.md": {
       "bytes": 4964,
